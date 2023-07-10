@@ -1,59 +1,41 @@
 import Head from "next/head"
-import { Button } from "components/Button/Button"
-import { LP_GRID_ITEMS } from "../lp-items"
+
+import LandingPage from "./landing-page"
+import NavHeader from "material/NavHeader"
 
 export default function Web() {
   return (
     <>
       <Head>
-        <meta property="og:url" content="https://next-enterprise.vercel.app/" />
-        <meta
-          property="og:image"
-          content="https://raw.githubusercontent.com/Blazity/next-enterprise/main/project-logo.png"
-        />
-        <meta property="og:image:width" content="1200" />
-        <meta property="og:image:height" content="630" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <title>Next.js Enterprise Boilerplate</title>
+        <meta charSet="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+        <meta name="description" content="We’re on a journey to advance and democratize artificial intelligence through open source and open science."/>
+        <meta property="fb:app_id" content="1321688464574422"/>
+        <meta name="twitter:card" content="summary_large_image"/>
+        <meta name="twitter:site" content="@huggingface"/>
+        <meta property="og:title" content="Hugging Face – The AI community building the future."/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:url" content="https://huggingface.co/"/>
+        <meta property="og:image" content="https://huggingface.co/front/thumbnails/v2-2.png"/>
+        <link rel="stylesheet" href="/front/build/kube/style.css"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com"/>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600;700&display=swap" rel="stylesheet"/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"/>
+        {/* <!-- HEAD_svelte-vwinwk_START --> */}
+        {/* <link rel="alternate" type="application/rss+xml" href="/blog/feed.xml" title="Hugging Face Blog" /> */}
+        {/* <!-- HEAD_svelte-vwinwk_END --> */}
+        <title>Hugging Face – The AI community building the future.</title>
+        <script defer data-domain="huggingface.co" src="/js/script.js"></script>
       </Head>
-      <section className="bg-white dark:bg-gray-900">
-        <div className="mx-auto grid max-w-screen-xl px-4 py-8 text-center lg:py-16">
-          <div className="mx-auto place-self-center">
-            <h1 className="mb-4 max-w-2xl text-4xl font-extrabold leading-none tracking-tight dark:text-white md:text-5xl xl:text-6xl">
-              Next.js Enterprise Boilerplate
-            </h1>
-            <p className="mb-6 max-w-2xl font-light text-gray-500 dark:text-gray-400 md:text-lg lg:mb-8 lg:text-xl">
-              Jumpstart your enterprise project with our feature-packed, high-performance Next.js boilerplate!
-              Experience rapid UI development, AI-powered code reviews, and an extensive suite of tools for a smooth and
-              enjoyable development process.
-            </p>
-            <Button href="https://github.com/Blazity/next-enterprise" className="mr-3">
-              Get started
-            </Button>
-            <Button
-              href="https://vercel.com/new/git/external?repository-url=https://github.com/Blazity/next-enterprise"
-              intent="secondary"
-            >
-              Deploy Now
-            </Button>
-          </div>
+      <div className="flex flex-col min-h-screen bg-white dark:bg-gray-950 text-black HomePage">
+        <div className="flex min-h-screen flex-col">
+          <NavHeader />
+          <div className="SVELTE_HYDRATER contents" data-props="{}" data-target="GoogleAnalyticsTracker"></div>
+          <div className="SVELTE_HYDRATER contents" data-props="{}" data-target="SSOBanner"></div>
+          <LandingPage />
         </div>
-      </section>
-      <section className="bg-white dark:bg-gray-900">
-        <div className="mx-auto max-w-screen-xl px-4 py-8 sm:py-16 lg:px-6">
-          <div className="justify-center space-y-8 md:grid md:grid-cols-2 md:gap-12 md:space-y-0 lg:grid-cols-3">
-            {LP_GRID_ITEMS.map((singleItem) => (
-              <div key={singleItem.title} className="flex flex-col items-center justify-center text-center">
-                <div className="mb-4 flex h-10 w-10 items-center justify-center rounded-full bg-primary-100 p-1.5 text-blue-700 dark:bg-primary-900 lg:h-12 lg:w-12">
-                  {singleItem.icon}
-                </div>
-                <h3 className="mb-2 text-xl font-bold dark:text-white">{singleItem.title}</h3>
-                <p className="text-gray-500 dark:text-gray-400">{singleItem.description}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      </div>
     </>
   )
 }

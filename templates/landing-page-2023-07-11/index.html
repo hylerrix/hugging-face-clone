@@ -1,0 +1,1268 @@
+<!DOCTYPE html>
+<html class="">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+  <meta name="description"
+    content="We’re on a journey to advance and democratize artificial intelligence through open source and open science." />
+  <meta property="fb:app_id" content="1321688464574422" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@huggingface" />
+  <meta property="og:title" content="Hugging Face – The AI community building the future." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://huggingface.co/" />
+  <meta property="og:image" content="https://huggingface.co/front/thumbnails/v2-2.png" />
+  <link rel="stylesheet" href="/front/build/kube-3af01cd/style.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap"
+    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" />
+  <!-- HEAD_svelte-vwinwk_START -->
+  <link rel="alternate" type="application/rss+xml" href="/blog/feed.xml" title="Hugging Face Blog">
+  <!-- HEAD_svelte-vwinwk_END -->
+  <title>Hugging Face – The AI community building the future.</title>
+  <script defer data-domain="huggingface.co" src="/js/script.js"></script>
+</head>
+
+<body class="flex flex-col min-h-screen bg-white dark:bg-gray-950 text-black HomePage">
+  <div class="flex min-h-screen flex-col">
+    <div class="SVELTE_HYDRATER contents" data-props="{&quot;isWide&quot;:false,&quot;isZh&quot;:true}"
+      data-target="MainHeader">
+      <header class="border-b border-gray-100">
+        <div class="w-full px-4 container flex h-16 items-center">
+          <div class="flex flex-1 items-center">
+            <a class="mr-5 flex flex-none items-center lg:mr-6" href="/">
+              <img alt="Hugging Face's logo" class="w-7 md:mr-2" src="/front/assets/huggingface_logo-noborder.svg">
+              <span class="hidden whitespace-nowrap text-lg font-bold md:block">Hugging Face</span>
+            </a>
+            <div class="relative flex-1 lg:max-w-sm mr-2 sm:mr-4 lg:mr-6">
+              <input autocomplete="off" class="w-full dark:bg-gray-950 pl-8 form-input-alt h-9 pr-3 focus:shadow-xl"
+                name="" placeholder="Search models, datasets, users..." spellcheck="false" type="text" value="">
+              <svg class="absolute left-2.5 text-gray-400 top-1/2 transform -translate-y-1/2"
+                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true"
+                focusable="false" role="img" width="1em" height="1em" preserveAspectRatio="xMidYMid meet"
+                viewBox="0 0 32 32">
+                <path d="M30 28.59L22.45 21A11 11 0 1 0 21 22.45L28.59 30zM5 14a9 9 0 1 1 9 9a9 9 0 0 1-9-9z"
+                  fill="currentColor"></path>
+              </svg>
+            </div>
+            <div class="flex flex-none items-center justify-center p-0.5 place-self-stretch lg:hidden">
+              <button class="relative z-30 flex h-6 w-8 items-center justify-center" type="button">
+                <svg width="1em" height="1em" viewBox="0 0 10 10" class="text-xl" xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" role="img"
+                  preserveAspectRatio="xMidYMid meet" fill="currentColor">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M1.65039 2.9999C1.65039 2.8066 1.80709 2.6499 2.00039 2.6499H8.00039C8.19369 2.6499 8.35039 2.8066 8.35039 2.9999C8.35039 3.1932 8.19369 3.3499 8.00039 3.3499H2.00039C1.80709 3.3499 1.65039 3.1932 1.65039 2.9999ZM1.65039 4.9999C1.65039 4.8066 1.80709 4.6499 2.00039 4.6499H8.00039C8.19369 4.6499 8.35039 4.8066 8.35039 4.9999C8.35039 5.1932 8.19369 5.3499 8.00039 5.3499H2.00039C1.80709 5.3499 1.65039 5.1932 1.65039 4.9999ZM2.00039 6.6499C1.80709 6.6499 1.65039 6.8066 1.65039 6.9999C1.65039 7.1932 1.80709 7.3499 2.00039 7.3499H8.00039C8.19369 7.3499 8.35039 7.1932 8.35039 6.9999C8.35039 6.8066 8.19369 6.6499 8.00039 6.6499H2.00039Z">
+                  </path>
+                </svg>
+              </button>
+            </div>
+          </div>
+          <nav aria-label="Main" class="ml-auto hidden lg:block">
+            <ul class="flex items-center space-x-2">
+              <li>
+                <a class="group flex items-center px-2 py-0.5 dark:hover:text-gray-400 hover:text-indigo-700"
+                  href="/models">
+                  <svg class="mr-1.5 text-gray-400 group-hover:text-indigo-500" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" role="img"
+                    width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                    <path class="uim-quaternary"
+                      d="M20.23 7.24L12 12L3.77 7.24a1.98 1.98 0 0 1 .7-.71L11 2.76c.62-.35 1.38-.35 2 0l6.53 3.77c.29.173.531.418.7.71z"
+                      opacity=".25" fill="currentColor"></path>
+                    <path class="uim-tertiary"
+                      d="M12 12v9.5a2.09 2.09 0 0 1-.91-.21L4.5 17.48a2.003 2.003 0 0 1-1-1.73v-7.5a2.06 2.06 0 0 1 .27-1.01L12 12z"
+                      opacity=".5" fill="currentColor"></path>
+                    <path class="uim-primary"
+                      d="M20.5 8.25v7.5a2.003 2.003 0 0 1-1 1.73l-6.62 3.82c-.275.13-.576.198-.88.2V12l8.23-4.76c.175.308.268.656.27 1.01z"
+                      fill="currentColor"></path>
+                  </svg>
+                  Models
+                </a>
+              </li>
+              <li>
+                <a class="group flex items-center px-2 py-0.5 dark:hover:text-gray-400 hover:text-red-700"
+                  href="/datasets">
+                  <svg class="mr-1.5 text-gray-400 group-hover:text-red-500" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" role="img"
+                    width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 25 25">
+                    <ellipse cx="12.5" cy="5" fill="currentColor" fill-opacity="0.25" rx="7.5" ry="2"></ellipse>
+                    <path
+                      d="M12.5 15C16.6421 15 20 14.1046 20 13V20C20 21.1046 16.6421 22 12.5 22C8.35786 22 5 21.1046 5 20V13C5 14.1046 8.35786 15 12.5 15Z"
+                      fill="currentColor" opacity="0.5"></path>
+                    <path
+                      d="M12.5 7C16.6421 7 20 6.10457 20 5V11.5C20 12.6046 16.6421 13.5 12.5 13.5C8.35786 13.5 5 12.6046 5 11.5V5C5 6.10457 8.35786 7 12.5 7Z"
+                      fill="currentColor" opacity="0.5"></path>
+                    <path
+                      d="M5.23628 12C5.08204 12.1598 5 12.8273 5 13C5 14.1046 8.35786 15 12.5 15C16.6421 15 20 14.1046 20 13C20 12.8273 19.918 12.1598 19.7637 12C18.9311 12.8626 15.9947 13.5 12.5 13.5C9.0053 13.5 6.06886 12.8626 5.23628 12Z"
+                      fill="currentColor"></path>
+                  </svg>
+                  Datasets
+                </a>
+              </li>
+              <li>
+                <a class="group flex items-center px-2 py-0.5 dark:hover:text-gray-400 hover:text-blue-700"
+                  href="/spaces">
+                  <svg class="mr-1.5 text-gray-400 group-hover:text-blue-500" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" role="img"
+                    width="1em" height="1em" viewBox="0 0 25 25">
+                    <path opacity=".5"
+                      d="M6.016 14.674v4.31h4.31v-4.31h-4.31ZM14.674 14.674v4.31h4.31v-4.31h-4.31ZM6.016 6.016v4.31h4.31v-4.31h-4.31Z"
+                      fill="currentColor"></path>
+                    <path opacity=".75" fill-rule="evenodd" clip-rule="evenodd"
+                      d="M3 4.914C3 3.857 3.857 3 4.914 3h6.514c.884 0 1.628.6 1.848 1.414a5.171 5.171 0 0 1 7.31 7.31c.815.22 1.414.964 1.414 1.848v6.514A1.914 1.914 0 0 1 20.086 22H4.914A1.914 1.914 0 0 1 3 20.086V4.914Zm3.016 1.102v4.31h4.31v-4.31h-4.31Zm0 12.968v-4.31h4.31v4.31h-4.31Zm8.658 0v-4.31h4.31v4.31h-4.31Zm0-10.813a2.155 2.155 0 1 1 4.31 0 2.155 2.155 0 0 1-4.31 0Z"
+                      fill="currentColor"></path>
+                    <path opacity=".25" d="M16.829 6.016a2.155 2.155 0 1 0 0 4.31 2.155 2.155 0 0 0 0-4.31Z"
+                      fill="currentColor"></path>
+                  </svg>
+                  Spaces
+                </a>
+              </li>
+              <li>
+                <a class="group flex items-center px-2 py-0.5 dark:hover:text-gray-400 hover:text-yellow-700"
+                  href="/docs">
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true"
+                    role="img" class="mr-1.5 text-gray-400 group-hover:text-yellow-500" width="1em" height="1em"
+                    preserveAspectRatio="xMidYMid meet" viewBox="0 0 32 32">
+                    <path opacity="0.5"
+                      d="M20.9022 5.10334L10.8012 10.8791L7.76318 9.11193C8.07741 8.56791 8.5256 8.11332 9.06512 7.7914L15.9336 3.73907C17.0868 3.08811 18.5002 3.26422 19.6534 3.91519L19.3859 3.73911C19.9253 4.06087 20.5879 4.56025 20.9022 5.10334Z"
+                      fill="currentColor"></path>
+                    <path
+                      d="M10.7999 10.8792V28.5483C10.2136 28.5475 9.63494 28.4139 9.10745 28.1578C8.5429 27.8312 8.074 27.3621 7.74761 26.7975C7.42122 26.2327 7.24878 25.5923 7.24756 24.9402V10.9908C7.25062 10.3319 7.42358 9.68487 7.74973 9.1123L10.7999 10.8792Z"
+                      fill="currentColor" fill-opacity="0.75"></path>
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M21.3368 10.8499V6.918C21.3331 6.25959 21.16 5.61234 20.8346 5.03949L10.7971 10.8727L10.8046 10.874L21.3368 10.8499Z"
+                      fill="currentColor"></path>
+                    <path opacity="0.5"
+                      d="M21.7937 10.8488L10.7825 10.8741V28.5486L21.7937 28.5234C23.3344 28.5234 24.5835 27.2743 24.5835 25.7335V13.6387C24.5835 12.0979 23.4365 11.1233 21.7937 10.8488Z"
+                      fill="currentColor"></path>
+                  </svg>
+                  Docs
+                </a>
+              </li>
+              <li>
+                <div class="relative ">
+                  <button class="px-2 py-0.5 group hover:text-green-700 dark:hover:text-gray-400 flex items-center "
+                    type="button">
+                    <svg class="mr-1.5 text-gray-400 group-hover:text-green-500" xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" role="img"
+                      width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                      <path class="uim-tertiary" d="M19 6H5a3 3 0 0 0-3 3v2.72L8.837 14h6.326L22 11.72V9a3 3 0 0 0-3-3z"
+                        opacity=".5" fill="currentColor"></path>
+                      <path class="uim-primary"
+                        d="M10 6V5h4v1h2V5a2.002 2.002 0 0 0-2-2h-4a2.002 2.002 0 0 0-2 2v1h2zm-1.163 8L2 11.72V18a3.003 3.003 0 0 0 3 3h14a3.003 3.003 0 0 0 3-3v-6.28L15.163 14H8.837z"
+                        fill="currentColor"></path>
+                    </svg>
+                    Solutions
+
+                  </button>
+                </div>
+              </li>
+              <li>
+                <a class="group flex items-center px-2 py-0.5 hover:text-gray-500 dark:hover:text-gray-400"
+                  href="/pricing">Pricing
+                </a>
+              </li>
+              <li>
+                <div class="relative group">
+                  <button class="px-2 py-0.5 hover:text-gray-500 dark:hover:text-gray-600 flex items-center "
+                    type="button">
+                    <svg
+                      class="mr-1.5 text-gray-500 w-5 group-hover:text-gray-400 dark:text-gray-300 dark:group-hover:text-gray-400"
+                      xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true"
+                      focusable="false" role="img" width="1em" height="1em" viewBox="0 0 32 18"
+                      preserveAspectRatio="xMidYMid meet">
+                      <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M14.4504 3.30221C14.4504 2.836 14.8284 2.45807 15.2946 2.45807H28.4933C28.9595 2.45807 29.3374 2.836 29.3374 3.30221C29.3374 3.76842 28.9595 4.14635 28.4933 4.14635H15.2946C14.8284 4.14635 14.4504 3.76842 14.4504 3.30221Z"
+                        fill="currentColor"></path>
+                      <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M14.4504 9.00002C14.4504 8.53382 14.8284 8.15588 15.2946 8.15588H28.4933C28.9595 8.15588 29.3374 8.53382 29.3374 9.00002C29.3374 9.46623 28.9595 9.84417 28.4933 9.84417H15.2946C14.8284 9.84417 14.4504 9.46623 14.4504 9.00002Z"
+                        fill="currentColor"></path>
+                      <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M14.4504 14.6978C14.4504 14.2316 14.8284 13.8537 15.2946 13.8537H28.4933C28.9595 13.8537 29.3374 14.2316 29.3374 14.6978C29.3374 15.164 28.9595 15.542 28.4933 15.542H15.2946C14.8284 15.542 14.4504 15.164 14.4504 14.6978Z"
+                        fill="currentColor"></path>
+                      <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M1.94549 6.87377C2.27514 6.54411 2.80962 6.54411 3.13928 6.87377L6.23458 9.96907L9.32988 6.87377C9.65954 6.54411 10.194 6.54411 10.5237 6.87377C10.8533 7.20343 10.8533 7.73791 10.5237 8.06756L6.23458 12.3567L1.94549 8.06756C1.61583 7.73791 1.61583 7.20343 1.94549 6.87377Z"
+                        fill="currentColor"></path>
+                    </svg>
+                  </button>
+                </div>
+              </li>
+              <li>
+                <hr class="h-5 w-0.5 border-none bg-gray-100 dark:bg-gray-800">
+              </li>
+              <li>
+                <a class="block cursor-pointer px-2 py-0.5 hover:text-gray-500 dark:hover:text-gray-400"
+                  href="/login">Log In
+                </a>
+              </li>
+              <li>
+                <a class="btn ml-2" href="/join">Sign Up </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+    </div>
+    <div class="SVELTE_HYDRATER contents" data-props="{}" data-target="GoogleAnalyticsTracker"></div>
+    <div class="SVELTE_HYDRATER contents" data-props="{}" data-target="SSOBanner"></div>
+    <main class="flex flex-1 flex-col">
+      <div class="flex-1">
+        <div class="container pb-32 pt-28 text-center 2xl:pb-40 2xl:pt-32">
+          <img class="mx-auto mb-4 h-24 w-24" src="/front/assets/huggingface_logo-noborder.svg" alt="">
+          <h1 class="mx-auto max-w-xl text-4xl font-bold text-gray-900 dark:text-gray-100 md:text-6xl">The AI
+            community building the future.
+          </h1>
+          <p class="mx-auto mt-6 max-w-md text-lg text-gray-500">Build, train and deploy state of the art
+            models powered by the reference open source in machine learning.</p>
+          <div class="flex items-center justify-center mt-12">
+            <a href="https://github.com/huggingface/transformers" class="btn -mr-1 text-lg font-bold">
+              <svg class="dark:text-gray-200 mr-2" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" role="img"
+                width="1.03em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 256 250">
+                <path
+                  d="M128.001 0C57.317 0 0 57.307 0 128.001c0 56.554 36.676 104.535 87.535 121.46c6.397 1.185 8.746-2.777 8.746-6.158c0-3.052-.12-13.135-.174-23.83c-35.61 7.742-43.124-15.103-43.124-15.103c-5.823-14.795-14.213-18.73-14.213-18.73c-11.613-7.944.876-7.78.876-7.78c12.853.902 19.621 13.19 19.621 13.19c11.417 19.568 29.945 13.911 37.249 10.64c1.149-8.272 4.466-13.92 8.127-17.116c-28.431-3.236-58.318-14.212-58.318-63.258c0-13.975 5-25.394 13.188-34.358c-1.329-3.224-5.71-16.242 1.24-33.874c0 0 10.749-3.44 35.21 13.121c10.21-2.836 21.16-4.258 32.038-4.307c10.878.049 21.837 1.47 32.066 4.307c24.431-16.56 35.165-13.12 35.165-13.12c6.967 17.63 2.584 30.65 1.255 33.873c8.207 8.964 13.173 20.383 13.173 34.358c0 49.163-29.944 59.988-58.447 63.157c4.591 3.972 8.682 11.762 8.682 23.704c0 17.126-.148 30.91-.148 35.126c0 3.407 2.304 7.398 8.792 6.14C219.37 232.5 256 184.537 256 128.002C256 57.307 198.691 0 128.001 0zm-80.06 182.34c-.282.636-1.283.827-2.194.39c-.929-.417-1.45-1.284-1.15-1.922c.276-.655 1.279-.838 2.205-.399c.93.418 1.46 1.293 1.139 1.931zm6.296 5.618c-.61.566-1.804.303-2.614-.591c-.837-.892-.994-2.086-.375-2.66c.63-.566 1.787-.301 2.626.591c.838.903 1 2.088.363 2.66zm4.32 7.188c-.785.545-2.067.034-2.86-1.104c-.784-1.138-.784-2.503.017-3.05c.795-.547 2.058-.055 2.861 1.075c.782 1.157.782 2.522-.019 3.08zm7.304 8.325c-.701.774-2.196.566-3.29-.49c-1.119-1.032-1.43-2.496-.726-3.27c.71-.776 2.213-.558 3.315.49c1.11 1.03 1.45 2.505.701 3.27zm9.442 2.81c-.31 1.003-1.75 1.459-3.199 1.033c-1.448-.439-2.395-1.613-2.103-2.626c.301-1.01 1.747-1.484 3.207-1.028c1.446.436 2.396 1.602 2.095 2.622zm10.744 1.193c.036 1.055-1.193 1.93-2.715 1.95c-1.53.034-2.769-.82-2.786-1.86c0-1.065 1.202-1.932 2.733-1.958c1.522-.03 2.768.818 2.768 1.868zm10.555-.405c.182 1.03-.875 2.088-2.387 2.37c-1.485.271-2.861-.365-3.05-1.386c-.184-1.056.893-2.114 2.376-2.387c1.514-.263 2.868.356 3.061 1.403z"
+                  fill="currentColor"></path>
+              </svg>
+              Star
+
+            </a>
+            <div class="relative ml-3">
+              <div
+                class="from-gray-100-to-white absolute -left-1 top-3.5 z-[-1] h-3 w-3 flex-none rotate-45 transform rounded-sm border border-gray-200 bg-gradient-to-t dark:border-gray-850 dark:bg-gray-900">
+              </div>
+              <a class="btn inset-0 text-lg font-bold dark:hover:text-yellow-500"
+                href="https://github.com/huggingface/transformers">106,934</a>
+            </div>
+          </div>
+        </div>
+        <div class="mx-auto max-w-5xl px-4 pb-16 text-center 2xl:max-w-6xl">
+          <div class="rounded-lg-b rounded-lg-gray-200 -mb-3.5 border border-gray-100"></div>
+          <div class="font-sm mb-6 inline-block bg-white px-4 text-gray-500">More than 5,000 organizations are
+            using Hugging Face</div>
+          <div class="grid gap-3 text-left md:grid-cols-2 lg:grid-cols-4">
+            <article class="overview-card-wrapper   ">
+              <a class="flex flex-1 items-center overflow-hidden p-2" href="/allenai">
+                <img alt="Allen Institute for AI's profile picture" class="mr-3 flex-none rounded-lg h-8 w-8"
+                  src="https://aeiljuispo.cloudimg.io/v7/https://cdn-uploads.huggingface.co/production/uploads/1584460628617-5e70f0eb8ce3c604d78fe130.png?w=200&amp;h=200&amp;f=face">
+                <div class="overflow-hidden leading-tight">
+                  <h4 class="flex items-center font-semibold " title="Allen Institute for AI">
+                    <span class="truncate">Allen Institute for AI</span>
+                  </h4>
+                  <div class="truncate text-sm text-gray-400 leading-tight">
+                    <span class="capitalize">non-profit</span>
+                    <span class="px-0.5 text-xs text-gray-300">•</span>
+                    193 models
+
+                  </div>
+                </div>
+              </a>
+            </article>
+            <article class="overview-card-wrapper   ">
+              <a class="flex flex-1 items-center overflow-hidden p-2" href="/facebook">
+                <img alt="Meta AI's profile picture" class="mr-3 flex-none rounded-lg h-8 w-8"
+                  src="https://aeiljuispo.cloudimg.io/v7/https://cdn-uploads.huggingface.co/production/uploads/1592839207516-noauth.png?w=200&amp;h=200&amp;f=face">
+                <div class="overflow-hidden leading-tight">
+                  <h4 class="flex items-center font-semibold " title="Meta AI">
+                    <span class="truncate">Meta AI</span>
+                  </h4>
+                  <div class="truncate text-sm text-gray-400 leading-tight">
+                    <span class="capitalize">company</span>
+                    <span class="px-0.5 text-xs text-gray-300">•</span>
+                    697 models
+
+                  </div>
+                </div>
+              </a>
+            </article>
+            <article class="overview-card-wrapper   ">
+              <a class="flex flex-1 items-center overflow-hidden p-2" href="/amazon">
+                <img alt="Amazon Web Services's profile picture" class="mr-3 flex-none rounded-lg h-8 w-8"
+                  src="https://aeiljuispo.cloudimg.io/v7/https://cdn-uploads.huggingface.co/production/uploads/1625068211554-5e67de201009063689407481.png?w=200&amp;h=200&amp;f=face">
+                <div class="overflow-hidden leading-tight">
+                  <h4 class="flex items-center font-semibold " title="Amazon Web Services">
+                    <span class="truncate">Amazon Web Services</span>
+                  </h4>
+                  <div class="truncate text-sm text-gray-400 leading-tight">
+                    <span class="capitalize">company</span>
+                    <span class="px-0.5 text-xs text-gray-300">•</span>
+                    2 models
+
+                  </div>
+                </div>
+              </a>
+            </article>
+            <article class="overview-card-wrapper   ">
+              <a class="flex flex-1 items-center overflow-hidden p-2" href="/google">
+                <img alt="Google's profile picture" class="mr-3 flex-none rounded-lg h-8 w-8"
+                  src="https://aeiljuispo.cloudimg.io/v7/https://cdn-uploads.huggingface.co/production/uploads/5dd96eb166059660ed1ee413/WtA3YYitedOr9n02eHfJe.png?w=200&amp;h=200&amp;f=face">
+                <div class="overflow-hidden leading-tight">
+                  <h4 class="flex items-center font-semibold " title="Google">
+                    <span class="truncate">Google</span>
+                  </h4>
+                  <div class="truncate text-sm text-gray-400 leading-tight">
+                    <span class="capitalize">company</span>
+                    <span class="px-0.5 text-xs text-gray-300">•</span>
+                    591 models
+
+                  </div>
+                </div>
+              </a>
+            </article>
+            <article class="overview-card-wrapper   ">
+              <a class="flex flex-1 items-center overflow-hidden p-2" href="/Intel">
+                <img alt="Intel's profile picture" class="mr-3 flex-none rounded-lg h-8 w-8"
+                  src="https://aeiljuispo.cloudimg.io/v7/https://cdn-uploads.huggingface.co/production/uploads/1616186257611-60104afcc75e19ac1738fe70.png?w=200&amp;h=200&amp;f=face">
+                <div class="overflow-hidden leading-tight">
+                  <h4 class="flex items-center font-semibold " title="Intel">
+                    <span class="truncate">Intel</span>
+                  </h4>
+                  <div class="truncate text-sm text-gray-400 leading-tight">
+                    <span class="capitalize">company</span>
+                    <span class="px-0.5 text-xs text-gray-300">•</span>
+                    122 models
+
+                  </div>
+                </div>
+              </a>
+            </article>
+            <article class="overview-card-wrapper   ">
+              <a class="flex flex-1 items-center overflow-hidden p-2" href="/speechbrain">
+                <img alt="SpeechBrain's profile picture" class="mr-3 flex-none rounded-lg h-8 w-8"
+                  src="https://aeiljuispo.cloudimg.io/v7/https://cdn-uploads.huggingface.co/production/uploads/1663000279893-60243f18c1f3c79f98e4b382.png?w=200&amp;h=200&amp;f=face">
+                <div class="overflow-hidden leading-tight">
+                  <h4 class="flex items-center font-semibold " title="SpeechBrain">
+                    <span class="truncate">SpeechBrain</span>
+                  </h4>
+                  <div class="truncate text-sm text-gray-400 leading-tight">
+                    <span class="capitalize">non-profit</span>
+                    <span class="px-0.5 text-xs text-gray-300">•</span>
+                    73 models
+
+                  </div>
+                </div>
+              </a>
+            </article>
+            <article class="overview-card-wrapper   ">
+              <a class="flex flex-1 items-center overflow-hidden p-2" href="/microsoft">
+                <img alt="Microsoft's profile picture" class="mr-3 flex-none rounded-lg h-8 w-8"
+                  src="https://aeiljuispo.cloudimg.io/v7/https://cdn-uploads.huggingface.co/production/uploads/1583646260758-5e64858c87403103f9f1055d.png?w=200&amp;h=200&amp;f=face">
+                <div class="overflow-hidden leading-tight">
+                  <h4 class="flex items-center font-semibold " title="Microsoft">
+                    <span class="truncate">Microsoft</span>
+                  </h4>
+                  <div class="truncate text-sm text-gray-400 leading-tight">
+                    <span class="capitalize">company</span>
+                    <span class="px-0.5 text-xs text-gray-300">•</span>
+                    257 models
+
+                  </div>
+                </div>
+              </a>
+            </article>
+            <article class="overview-card-wrapper   ">
+              <a class="flex flex-1 items-center overflow-hidden p-2" href="/grammarly">
+                <img alt="Grammarly's profile picture" class="mr-3 flex-none rounded-lg h-8 w-8"
+                  src="https://aeiljuispo.cloudimg.io/v7/https://cdn-uploads.huggingface.co/production/uploads/1611152856266-5dd96eb166059660ed1ee413.png?w=200&amp;h=200&amp;f=face">
+                <div class="overflow-hidden leading-tight">
+                  <h4 class="flex items-center font-semibold " title="Grammarly">
+                    <span class="truncate">Grammarly</span>
+                  </h4>
+                  <div class="truncate text-sm text-gray-400 leading-tight">
+                    <span class="capitalize">company</span>
+                    <span class="px-0.5 text-xs text-gray-300">•</span>
+                    6 models
+
+                  </div>
+                </div>
+              </a>
+            </article>
+          </div>
+        </div>
+      </div>
+      <div
+        class="overflow-hidden bg-gradient-to-b from-white via-red-200/20 to-indigo-200/20 pt-14 dark:from-gray-950 dark:to-gray-900">
+        <div class="container grid gap-x-6 gap-y-12 lg:grid-cols-3 lg:gap-y-0">
+          <div class="lg:-mt-6 lg:self-center lg:pr-12">
+            <div class="flex flex-col">
+              <div class="flex items-center rounded-lg">
+                <div>
+                  <svg class="text-orange-400 text-xl" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" role="img"
+                    width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                    <path class="uim-quaternary"
+                      d="M20.23 7.24L12 12L3.77 7.24a1.98 1.98 0 0 1 .7-.71L11 2.76c.62-.35 1.38-.35 2 0l6.53 3.77c.29.173.531.418.7.71z"
+                      opacity=".25" fill="currentColor"></path>
+                    <path class="uim-tertiary"
+                      d="M12 12v9.5a2.09 2.09 0 0 1-.91-.21L4.5 17.48a2.003 2.003 0 0 1-1-1.73v-7.5a2.06 2.06 0 0 1 .27-1.01L12 12z"
+                      opacity=".5" fill="currentColor"></path>
+                    <path class="uim-primary"
+                      d="M20.5 8.25v7.5a2.003 2.003 0 0 1-1 1.73l-6.62 3.82c-.275.13-.576.198-.88.2V12l8.23-4.76c.175.308.268.656.27 1.01z"
+                      fill="currentColor"></path>
+                  </svg>
+                  <div class="h-2"></div>
+                  <p class="font-mono text-sm text-gray-500">Hub</p>
+                  <h2 class="false text-2xl font-semibold leading-tight text-gray-800">Home of Machine
+                    Learning</h2>
+                </div>
+              </div>
+              <div class="h-6"></div>
+              <p class="max-w-sm leading-snug text-gray-500">
+                Create, discover and collaborate on ML better.<br>Join the community to start your ML
+                journey.
+
+              </p>
+              <div class="h-6"></div>
+              <a href="/join"
+                class="mt-auto self-start border-b border-gray-600 pb-0.5 text-gray-800 hover:border-gray-400 hover:text-gray-500">Sign
+                Up</a>
+            </div>
+          </div>
+          <div class="relative lg:col-span-2">
+            <img
+              class="relative -mb-px hidden overflow-hidden rounded-t-xl border border-b-0 border-gray-100 bg-white md:block"
+              style="box-shadow: 0 0px 16px 0 rgb(68 195 255 / 8%)" src="/front/assets/activity-feed.png"
+              alt="Hugging Face Hub dashboard">
+            <img
+              class="relative -mb-px overflow-hidden rounded-t-xl border border-b-0 border-gray-100 bg-white md:hidden"
+              style="box-shadow: 0 0px 16px 0 rgb(68 195 255 / 8%)" src="/front/assets/activity-feed-mobile.png"
+              alt="Hugging Face Hub dashboard">
+          </div>
+        </div>
+      </div>
+      <div
+        class="max-w-full overflow-hidden border-b border-t border-gray-100 bg-gradient-to-br py-24 dark:from-gray-950 dark:to-gray-900 md:py-32">
+        <div class="container grid grid-cols-1 gap-y-12 md:grid-cols-4 md:gap-y-0">
+          <div class="pr-12 md:col-span-1">
+            <div class="flex flex-col">
+              <svg class="text-green-400 text-xl" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" width="1em" height="1em"
+                preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                <path class="uim-tertiary"
+                  d="M15.273 18.728A6.728 6.728 0 1 1 22 11.999V12a6.735 6.735 0 0 1-6.727 6.728z" opacity=".5"
+                  fill="currentColor"></path>
+                <path class="uim-primary" d="M8.727 18.728A6.728 6.728 0 1 1 15.455 12a6.735 6.735 0 0 1-6.728 6.728z"
+                  fill="currentColor"></path>
+              </svg>
+              <div class="h-2"></div>
+              <div class="flex items-center rounded-lg">
+                <div>
+                  <p class="font-mono text-sm text-gray-500">Tasks</p>
+                  <h2 class="false text-2xl font-semibold leading-tight text-gray-800">Problems
+                    solvers</h2>
+                </div>
+              </div>
+              <div class="h-6"></div>
+              <p class="leading-snug text-gray-500">Thousands of creators work as a community to solve
+                Audio, Vision, and Language with AI.
+              </p>
+              <div class="h-6"></div>
+              <a href="/tasks"
+                class="mt-auto self-start border-b border-gray-600 pb-0.5 text-gray-800 hover:border-gray-400 hover:text-gray-500">Explore
+                tasks</a>
+            </div>
+          </div>
+          <div
+            class="relative ml-auto flex space-x-3 bg-gradient-to-b from-white via-purple-100/40 to-white md:col-span-3">
+            <div class="-ml-16 flex space-x-2 md:-ml-0">
+              <div class="first:hidden 2xl:first:block">
+                <a class="transition:all dark:hover:brightness-120 relative flex h-52 w-[9.24rem] flex-none flex-col items-center justify-center rounded-xl border border-gray-100 bg-gradient-to-br from-white to-white p-3 shadow-none duration-100 hover:translate-y-1 hover:shadow-inner hover:brightness-[102%] dark:from-gray-800 dark:to-gray-900 dark:!shadow-none"
+                  style="box-shadow: 0 0px 16px 0 rgb(68 195 255 / 8%)" href="/tasks/audio-classification">
+                  <svg class="text-3xl mb-6 mx-auto flex-none text-green-400" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" role="img"
+                    width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 32 32">
+                    <path
+                      d="M25 4H10a2.002 2.002 0 0 0-2 2v14.556A3.955 3.955 0 0 0 6 20a4 4 0 1 0 4 4V12h15v8.556A3.954 3.954 0 0 0 23 20a4 4 0 1 0 4 4V6a2.002 2.002 0 0 0-2-2zM6 26a2 2 0 1 1 2-2a2.002 2.002 0 0 1-2 2zm17 0a2 2 0 1 1 2-2a2.003 2.003 0 0 1-2 2zM10 6h15v4H10z"
+                      fill="currentColor"></path>
+                  </svg>
+                  <header class="mb-2 text-center text-lg font-semibold leading-5">Audio
+                    Classification</header>
+                  <p class="text-sm text-gray-400">770 models</p>
+                </a>
+              </div>
+              <div class="first:hidden 2xl:first:block">
+                <a class="transition:all dark:hover:brightness-120 relative flex h-52 w-[9.24rem] flex-none flex-col items-center justify-center rounded-xl border border-gray-100 bg-gradient-to-br from-white to-white p-3 shadow-none duration-100 hover:translate-y-1 hover:shadow-inner hover:brightness-[102%] dark:from-gray-800 dark:to-gray-900 dark:!shadow-none"
+                  style="box-shadow: 0 0px 16px 0 rgb(68 195 255 / 8%)" href="/tasks/image-classification">
+                  <svg class="text-3xl mb-6 mx-auto flex-none text-blue-400" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" fill="currentColor" focusable="false"
+                    role="img" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 32 32">
+                    <polygon points="4 20 4 22 8.586 22 2 28.586 3.414 30 10 23.414 10 28 12 28 12 20 4 20">
+                    </polygon>
+                    <path d="M19,14a3,3,0,1,0-3-3A3,3,0,0,0,19,14Zm0-4a1,1,0,1,1-1,1A1,1,0,0,1,19,10Z">
+                    </path>
+                    <path
+                      d="M26,4H6A2,2,0,0,0,4,6V16H6V6H26V21.17l-3.59-3.59a2,2,0,0,0-2.82,0L18,19.17,11.8308,13l-1.4151,1.4155L14,18l2.59,2.59a2,2,0,0,0,2.82,0L21,19l5,5v2H16v2H26a2,2,0,0,0,2-2V6A2,2,0,0,0,26,4Z">
+                    </path>
+                  </svg>
+                  <header class="mb-2 text-center text-lg font-semibold leading-5">Image
+                    Classification</header>
+                  <p class="text-sm text-gray-400">4,493 models</p>
+                </a>
+              </div>
+              <div class="first:hidden 2xl:first:block">
+                <a class="transition:all dark:hover:brightness-120 relative flex h-52 w-[9.24rem] flex-none flex-col items-center justify-center rounded-xl border border-gray-100 bg-gradient-to-br from-white to-white p-3 shadow-none duration-100 hover:translate-y-1 hover:shadow-inner hover:brightness-[102%] dark:from-gray-800 dark:to-gray-900 dark:!shadow-none"
+                  style="box-shadow: 0 0px 16px 0 rgb(68 195 255 / 8%)" href="/tasks/object-detection">
+                  <svg class="text-3xl mb-6 mx-auto flex-none text-yellow-400" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" fill="currentColor" focusable="false"
+                    role="img" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 32 32">
+                    <path
+                      d="M24,14a5.99,5.99,0,0,0-4.885,9.4712L14,28.5859,15.4141,30l5.1147-5.1147A5.9971,5.9971,0,1,0,24,14Zm0,10a4,4,0,1,1,4-4A4.0045,4.0045,0,0,1,24,24Z">
+                    </path>
+                    <path
+                      d="M17,12a3,3,0,1,0-3-3A3.0033,3.0033,0,0,0,17,12Zm0-4a1,1,0,1,1-1,1A1.0009,1.0009,0,0,1,17,8Z">
+                    </path>
+                    <path
+                      d="M12,24H4V17.9966L9,13l5.5859,5.5859L16,17.168l-5.5859-5.5855a2,2,0,0,0-2.8282,0L4,15.168V4H24v6h2V4a2.0023,2.0023,0,0,0-2-2H4A2.002,2.002,0,0,0,2,4V24a2.0023,2.0023,0,0,0,2,2h8Z">
+                    </path>
+                  </svg>
+                  <header class="mb-2 text-center text-lg font-semibold leading-5">Object Detection
+                  </header>
+                  <p class="text-sm text-gray-400">536 models</p>
+                </a>
+              </div>
+              <div class="first:hidden 2xl:first:block">
+                <a class="transition:all dark:hover:brightness-120 relative flex h-52 w-[9.24rem] flex-none flex-col items-center justify-center rounded-xl border border-gray-100 bg-gradient-to-br from-white to-white p-3 shadow-none duration-100 hover:translate-y-1 hover:shadow-inner hover:brightness-[102%] dark:from-gray-800 dark:to-gray-900 dark:!shadow-none"
+                  style="box-shadow: 0 0px 16px 0 rgb(68 195 255 / 8%)" href="/tasks/question-answering">
+                  <svg class="text-3xl mb-6 mx-auto flex-none text-blue-400" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" width="1em" height="1em"
+                    preserveAspectRatio="xMidYMid meet" viewBox="0 0 32 32">
+                    <path d="M2 9h9V2H2zm2-5h5v3H4z" fill="currentColor"></path>
+                    <path d="M2 19h9v-7H2zm2-5h5v3H4z" fill="currentColor"></path>
+                    <path d="M2 29h9v-7H2zm2-5h5v3H4z" fill="currentColor"></path>
+                    <path
+                      d="M27 9h-9l3.41-3.59L20 4l-6 6l6 6l1.41-1.41L18 11h9a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H15v2h12a3 3 0 0 0 3-3V12a3 3 0 0 0-3-3z"
+                      fill="currentColor"></path>
+                  </svg>
+                  <header class="mb-2 text-center text-lg font-semibold leading-5">Question Answering
+                  </header>
+                  <p class="text-sm text-gray-400">5,521 models</p>
+                </a>
+              </div>
+              <div class="first:hidden 2xl:first:block">
+                <a class="transition:all dark:hover:brightness-120 relative flex h-52 w-[9.24rem] flex-none flex-col items-center justify-center rounded-xl border border-gray-100 bg-gradient-to-br from-white to-white p-3 shadow-none duration-100 hover:translate-y-1 hover:shadow-inner hover:brightness-[102%] dark:from-gray-800 dark:to-gray-900 dark:!shadow-none"
+                  style="box-shadow: 0 0px 16px 0 rgb(68 195 255 / 8%)" href="/tasks/summarization">
+                  <svg class="text-3xl mb-6 mx-auto flex-none text-indigo-400" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" fill="currentColor" focusable="false"
+                    role="img" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 18 19">
+                    <path
+                      d="M15.4988 8.79309L12.1819 5.47621C12.0188 5.25871 11.7469 5.14996 11.475 5.14996H7.12501C6.52688 5.14996 6.03751 5.63934 6.03751 6.23746V16.025C6.03751 16.6231 6.52688 17.1125 7.12501 17.1125H14.7375C15.3356 17.1125 15.825 16.6231 15.825 16.025V9.55434C15.825 9.28246 15.7163 9.01059 15.4988 8.79309V8.79309ZM11.475 6.23746L14.6831 9.49996H11.475V6.23746ZM7.12501 16.025V6.23746H10.3875V9.49996C10.3875 10.0981 10.8769 10.5875 11.475 10.5875H14.7375V16.025H7.12501Z">
+                    </path>
+                    <path
+                      d="M3.8625 10.5875H2.775V2.97498C2.775 2.37686 3.26438 1.88748 3.8625 1.88748H11.475V2.97498H3.8625V10.5875Z">
+                    </path>
+                  </svg>
+                  <header class="mb-2 text-center text-lg font-semibold leading-5">Summarization
+                  </header>
+                  <p class="text-sm text-gray-400">1,185 models</p>
+                </a>
+              </div>
+              <div class="first:hidden 2xl:first:block">
+                <a class="transition:all dark:hover:brightness-120 relative flex h-52 w-[9.24rem] flex-none flex-col items-center justify-center rounded-xl border border-gray-100 bg-gradient-to-br from-white to-white p-3 shadow-none duration-100 hover:translate-y-1 hover:shadow-inner hover:brightness-[102%] dark:from-gray-800 dark:to-gray-900 dark:!shadow-none"
+                  style="box-shadow: 0 0px 16px 0 rgb(68 195 255 / 8%)" href="/tasks/text-classification">
+                  <svg class="text-3xl mb-6 mx-auto flex-none text-orange-400" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" fill="currentColor" focusable="false"
+                    role="img" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 32 32"
+                    style="transform: rotate(360deg);">
+                    <circle cx="10" cy="20" r="2" fill="currentColor"></circle>
+                    <circle cx="10" cy="28" r="2" fill="currentColor"></circle>
+                    <circle cx="10" cy="14" r="2" fill="currentColor"></circle>
+                    <circle cx="28" cy="4" r="2" fill="currentColor"></circle>
+                    <circle cx="22" cy="6" r="2" fill="currentColor"></circle>
+                    <circle cx="28" cy="10" r="2" fill="currentColor"></circle>
+                    <circle cx="20" cy="12" r="2" fill="currentColor"></circle>
+                    <circle cx="28" cy="22" r="2" fill="currentColor"></circle>
+                    <circle cx="26" cy="28" r="2" fill="currentColor"></circle>
+                    <circle cx="20" cy="26" r="2" fill="currentColor"></circle>
+                    <circle cx="22" cy="20" r="2" fill="currentColor"></circle>
+                    <circle cx="16" cy="4" r="2" fill="currentColor"></circle>
+                    <circle cx="4" cy="24" r="2" fill="currentColor"></circle>
+                    <circle cx="4" cy="16" r="2" fill="currentColor"></circle>
+                  </svg>
+                  <header class="mb-2 text-center text-lg font-semibold leading-5">Text Classification
+                  </header>
+                  <p class="text-sm text-gray-400">26,740 models</p>
+                </a>
+              </div>
+              <div class="first:hidden 2xl:first:block">
+                <a class="transition:all dark:hover:brightness-120 relative flex h-52 w-[9.24rem] flex-none flex-col items-center justify-center rounded-xl border border-gray-100 bg-gradient-to-br from-white to-white p-3 shadow-none duration-100 hover:translate-y-1 hover:shadow-inner hover:brightness-[102%] dark:from-gray-800 dark:to-gray-900 dark:!shadow-none"
+                  style="box-shadow: 0 0px 16px 0 rgb(68 195 255 / 8%)" href="/tasks/translation">
+                  <svg class="text-3xl mb-6 mx-auto flex-none text-green-400" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" fill="currentColor" focusable="false"
+                    role="img" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 18 18">
+                    <path
+                      d="M15.7435 16.3688H16.9125L13.65 8.21251H12.3722L9.1097 16.3688H10.2788L11.1488 14.1938H14.8735L15.7435 16.3688ZM11.5838 13.1063L13.0084 9.53926L14.4385 13.1063H11.5838Z">
+                    </path>
+                    <path
+                      d="M10.3875 4.40625V3.31875H6.58125V1.6875H5.49375V3.31875H1.6875V4.40625H7.52737C7.2261 5.64892 6.63129 6.80125 5.79281 7.76663C5.24624 7.08884 4.8246 6.31923 4.54763 5.49375H3.40575C3.74803 6.60116 4.30202 7.63159 5.037 8.52787C4.2247 9.3158 3.27338 9.94633 2.23125 10.3875L2.63906 11.3989C3.81007 10.9044 4.87658 10.1922 5.78194 9.3C6.67088 10.2044 7.73719 10.9153 8.91394 11.388L9.3 10.3875C8.25187 9.98235 7.3026 9.35754 6.516 8.55506C7.55705 7.36858 8.2892 5.94351 8.6475 4.40625H10.3875Z">
+                    </path>
+                  </svg>
+                  <header class="mb-2 text-center text-lg font-semibold leading-5">Translation
+                  </header>
+                  <p class="text-sm text-gray-400">2,579 models</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="border-b border-gray-100 bg-gradient-to-bl from-purple-50 via-white to-blue-100/40 py-16 dark:from-gray-950 dark:to-gray-900 md:py-32">
+        <div class="container grid gap-6 lg:grid-cols-3">
+          <div class="lg:place-self-center lg:pr-12">
+            <div class="flex flex-col">
+              <svg class="text-blue-400 text-lg" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" role="img" width="1em"
+                height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                <path class="uim-quaternary"
+                  d="M12 14.195c-.176 0-.348-.046-.5-.133l-9-5.198a1 1 0 0 1 0-1.732l9-5.194c.31-.177.69-.177 1 0l9 5.194a1 1 0 0 1 0 1.732l-9 5.198a1.002 1.002 0 0 1-.5.133z"
+                  opacity=".25" fill="currentColor"></path>
+                <path class="uim-tertiary"
+                  d="M21.5 11.132l-1.964-1.134l-7.036 4.064c-.31.178-.69.178-1 0L4.464 9.998L2.5 11.132a1 1 0 0 0 0 1.732l9 5.198c.31.178.69.178 1 0l9-5.198a1 1 0 0 0 0-1.732z"
+                  opacity=".5" fill="currentColor"></path>
+                <path class="uim-primary"
+                  d="M21.5 15.132l-1.964-1.134l-7.036 4.064c-.31.178-.69.178-1 0l-7.036-4.064L2.5 15.132a1 1 0 0 0 0 1.732l9 5.198c.31.178.69.178 1 0l9-5.198a1 1 0 0 0 0-1.732z"
+                  fill="currentColor"></path>
+              </svg>
+              <div class="h-2"></div>
+              <div class="flex items-center rounded-lg">
+                <div>
+                  <p class="font-mono text-sm text-gray-500">Open Source</p>
+                  <h2 class="false text-2xl font-semibold leading-tight text-gray-800">Transformers
+                  </h2>
+                </div>
+              </div>
+              <div class="h-6"></div>
+              <p class="leading-snug text-gray-500">
+                Transformers is our natural language processing library and our hub is now open to all
+                ML models, with
+                support from libraries like
+                <a target="_blank" class="underline" href="https://github.com/flairNLP/flair">Flair</a>
+                ,
+                <a target="_blank" class="underline" href="https://github.com/asteroid-team/asteroid">Asteroid</a>
+                ,
+                <a target="_blank" class="underline" href="https://github.com/espnet/espnet">ESPnet</a>
+                ,
+                <a target="_blank" class="underline" href="https://github.com/pyannote/pyannote-audio">Pyannote</a>
+                , and
+                more to come.
+
+              </p>
+              <div class="h-6"></div>
+              <a href="https://huggingface.co/transformers"
+                class="mt-auto self-start border-b border-gray-600 pb-0.5 text-gray-800 hover:border-gray-400 hover:text-gray-500">Read
+                documentation</a>
+            </div>
+          </div>
+          <div class="order-first gap-4 overflow-hidden rounded-lg object-cover md:order-none lg:col-span-2">
+            <div
+              class="flex items-center justify-center from-blue-100/20 to-blue-100/30 p-0 dark:from-gray-925 dark:to-gray-950 md:rounded-xl md:bg-gradient-to-b md:p-12">
+              <div
+                class="relative w-full overflow-hidden rounded-xl bg-gradient-to-br border border-gray-100 from-white to-white shadow-sm dark:from-gray-900 dark:to-gray-800 ">
+                <div class="absolute top-4 left-4 flex space-x-1.5">
+                  <div class="h-2.5 w-2.5 cursor-pointer rounded-full bg-red-500 shadow-xl hover:bg-red-600">
+                  </div>
+                  <div
+                    class="h-2.5 w-2.5 cursor-pointer rounded-full shadow-xl bg-orange-300 hover:bg-orange-400 dark:bg-orange-500 dark:hover:bg-orange-600">
+                  </div>
+                  <div class="h-2.5 w-2.5 cursor-pointer rounded-full bg-green-500 shadow-xl hover:bg-green-600">
+                  </div>
+                </div>
+                <div
+                  class="pointer-events-none w-full truncate px-20 pt-3 text-center text-xs text-gray-300 dark:text-gray-600">
+                  huggingface@transformers:~</div>
+                <div class="px-4 pb-5 pt-3.5" translate="no">
+                  <pre class="overflow-x-auto text-xs md:text-sm ">
+                                            <code class="leading-relaxed md:leading-normal text-gray-600">
+                                                <!-- HTML_TAG_START -->
+                                                <span class="hljs-keyword">from</span>
+                                                <span class="hljs-name">transformers</span>
+                                                <span class="hljs-keyword">import</span>
+                                                <span class="hljs-name">AutoTokenizer</span>
+                                                , <span class="hljs-name">AutoModelForMaskedLM</span>
+                                                <span class="hljs-name">tokenizer</span>
+                                                = <span class="hljs-name">AutoTokenizer</span>
+                                                .<span class="hljs-title">from_pretrained</span>
+                                                (<span class="hljs-string">"bert-base-uncased"</span>
+                                                )
+<span class="hljs-name">model</span>
+                                                = <span class="hljs-name">AutoModelForMaskedLM</span>
+                                                .<span class="hljs-title">from_pretrained</span>
+                                                (<span class="hljs-string">"bert-base-uncased"</span>
+                                                )
+                                                <!-- HTML_TAG_END -->
+                                            </code>
+                                        </pre>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="bg-gradient-to-br from-white via-gray-200/20 to-white py-16 dark:from-gray-950 dark:to-gray-900 md:py-32">
+        <div class="container grid gap-x-6 gap-y-12 lg:grid-cols-3 lg:gap-y-0">
+          <div class="lg:place-self-center lg:pr-12">
+            <div class="flex flex-col">
+              <svg class="text-indigo-400 text-2xl" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" role="img" width="1em"
+                height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 32 32">
+                <path d="M8 9H4a2 2 0 0 0-2 2v12h2v-5h4v5h2V11a2 2 0 0 0-2-2zm-4 7v-5h4v5z" fill="currentColor"></path>
+                <path d="M22 11h3v10h-3v2h8v-2h-3V11h3V9h-8v2z" fill="currentColor"></path>
+                <path d="M14 23h-2V9h6a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-4zm0-7h4v-5h-4z" fill="currentColor"></path>
+              </svg>
+              <div class="h-2"></div>
+              <div class="flex items-center rounded-lg">
+                <div>
+                  <p class="font-mono text-sm text-gray-500">On demand</p>
+                  <h2 class="false text-2xl font-semibold leading-tight text-gray-800">Inference API
+                  </h2>
+                </div>
+              </div>
+              <div class="h-6"></div>
+              <p class="leading-snug text-gray-500">Serve your models directly from Hugging Face
+                infrastructure and run large scale NLP models in milliseconds
+                with just a few lines of code.
+              </p>
+              <div class="h-6"></div>
+              <a href="/inference-api"
+                class="mt-auto self-start border-b border-gray-600 pb-0.5 text-gray-800 hover:border-gray-400 hover:text-gray-500">Learn
+                more</a>
+            </div>
+          </div>
+          <div
+            class="flex flex-col overflow-hidden rounded-xl bg-gradient-to-br from-white to-white p-6 shadow-sm dark:border-gray-850 dark:from-gray-925 dark:to-gray-950">
+            <div class="truncate">
+              <a href="/distilbert-base-uncased" class="text-lg font-semibold">distilbert-base-uncased
+              </a>
+            </div>
+            <div class="flex w-full flex-1">
+              <div class="SVELTE_HYDRATER contents"
+                data-props="{&quot;apiUrl&quot;:&quot;https://api-inference.huggingface.co&quot;,&quot;callApiOnMount&quot;:true,&quot;model&quot;:{&quot;pipeline_tag&quot;:&quot;fill-mask&quot;,&quot;mask_token&quot;:&quot;[MASK]&quot;,&quot;id&quot;:&quot;distilbert-base-uncased&quot;,&quot;private&quot;:false,&quot;widgetData&quot;:[{&quot;text&quot;:&quot;The goal of life is [MASK].&quot;}]},&quot;noTitle&quot;:true,&quot;includeCredentials&quot;:true}"
+                data-target="InferenceWidget">
+                <div class="flex flex-col w-full max-w-full ">
+                  <div class="mb-2 flex items-center font-semibold"></div>
+                  <div
+                    class="mb-0.5 flex w-full max-w-full flex-wrap items-center justify-between text-sm text-gray-500">
+                    <a class="hover:underline" href="/tasks/fill-mask" target="_blank"
+                      title="Learn more about fill-mask">
+                      <div class="inline-flex items-center mr-2 mb-1.5">
+                        <svg class="mr-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                          aria-hidden="true" fill="currentColor" focusable="false" role="img" width="1em" height="1em"
+                          preserveAspectRatio="xMidYMid meet" viewBox="0 0 18 19">
+                          <path
+                            d="M12.3625 13.85H10.1875V12.7625H12.3625V10.5875H13.45V12.7625C13.4497 13.0508 13.335 13.3272 13.1312 13.5311C12.9273 13.735 12.6508 13.8497 12.3625 13.85V13.85Z">
+                          </path>
+                          <path
+                            d="M5.8375 8.41246H4.75V6.23746C4.75029 5.94913 4.86496 5.67269 5.06884 5.4688C5.27272 5.26492 5.54917 5.15025 5.8375 5.14996H8.0125V6.23746H5.8375V8.41246Z">
+                          </path>
+                          <path
+                            d="M15.625 5.14998H13.45V2.97498C13.4497 2.68665 13.335 2.4102 13.1312 2.20632C12.9273 2.00244 12.6508 1.88777 12.3625 1.88748H2.575C2.28666 1.88777 2.01022 2.00244 1.80633 2.20632C1.60245 2.4102 1.48778 2.68665 1.4875 2.97498V12.7625C1.48778 13.0508 1.60245 13.3273 1.80633 13.5311C2.01022 13.735 2.28666 13.8497 2.575 13.85H4.75V16.025C4.75028 16.3133 4.86495 16.5898 5.06883 16.7936C5.27272 16.9975 5.54916 17.1122 5.8375 17.1125H15.625C15.9133 17.1122 16.1898 16.9975 16.3937 16.7936C16.5975 16.5898 16.7122 16.3133 16.7125 16.025V6.23748C16.7122 5.94915 16.5975 5.6727 16.3937 5.46882C16.1898 5.26494 15.9133 5.15027 15.625 5.14998V5.14998ZM15.625 16.025H5.8375V13.85H8.0125V12.7625H5.8375V10.5875H4.75V12.7625H2.575V2.97498H12.3625V5.14998H10.1875V6.23748H12.3625V8.41248H13.45V6.23748H15.625V16.025Z">
+                          </path>
+                        </svg>
+                        <span>Fill-Mask</span>
+                      </div>
+                    </a>
+                    <div class="ml-auto flex gap-x-1">
+                      <div class="relative mb-1.5  false false">
+                        <div class="inline-flex w-32 justify-between rounded-md border border-gray-100 px-4 py-1">
+                          <div class="truncate text-sm">Examples</div>
+                          <svg class="-mr-1 ml-2 h-5 w-5 transition ease-in-out transform false"
+                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                            aria-hidden="true">
+                            <path fill-rule="evenodd"
+                              d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                              clip-rule="evenodd"></path>
+                          </svg>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <form>
+                    <div class="text-sm text-gray-500 mb-1.5">
+                      Mask token: <code>[MASK]</code>
+                    </div>
+                    <label class="block ">
+                      <span
+                        class="  block overflow-auto resize-y py-2 px-3 w-full min-h-[42px] max-h-[500px] whitespace-pre-wrap inline-block border border-gray-200 rounded-lg shadow-inner outline-none focus:ring focus:ring-blue-200 focus:shadow-inner dark:bg-gray-925 svelte-1wfa7x9"
+                        role="textbox" contenteditable style="--placeholder: 'Your sentence here...'" spellcheck="false"
+                        dir="auto"></span>
+                    </label>
+                    <button class="btn-widget w-24 h-10 px-5 mt-2" type="submit">Compute</button>
+                  </form>
+                  <div class="mt-2">
+                    <div class="text-gray-400 text-xs">
+                      <!-- HTML_TAG_START -->
+                      This model can be loaded on the Inference API on-demand.
+                      <!-- HTML_TAG_END -->
+                    </div>
+                  </div>
+                  <div class="mt-auto pt-4 flex items-center text-xs text-gray-500">
+                    <button class="flex items-center cursor-not-allowed text-gray-300" disabled>
+                      <svg class="mr-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        aria-hidden="true" focusable="false" role="img" width="1em" height="1em"
+                        preserveAspectRatio="xMidYMid meet" viewBox="0 0 32 32" style="transform: rotate(360deg);">
+                        <path d="M31 16l-7 7l-1.41-1.41L28.17 16l-5.58-5.59L24 9l7 7z" fill="currentColor"></path>
+                        <path d="M1 16l7-7l1.41 1.41L3.83 16l5.58 5.59L8 23l-7-7z" fill="currentColor"></path>
+                        <path d="M12.419 25.484L17.639 6l1.932.518L14.35 26z" fill="currentColor"></path>
+                      </svg>
+                      JSON Output
+
+                    </button>
+                    <button class="flex items-center ml-auto">
+                      <svg class="mr-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        aria-hidden="true" focusable="false" role="img" width="1em" height="1em"
+                        preserveAspectRatio="xMidYMid meet" viewBox="0 0 32 32">
+                        <path d="M22 16h2V8h-8v2h6v6z" fill="currentColor"></path>
+                        <path d="M8 24h8v-2h-6v-6H8v8z" fill="currentColor"></path>
+                        <path
+                          d="M26 28H6a2.002 2.002 0 0 1-2-2V6a2.002 2.002 0 0 1 2-2h20a2.002 2.002 0 0 1 2 2v20a2.002 2.002 0 0 1-2 2zM6 6v20h20.001L26 6z"
+                          fill="currentColor"></path>
+                      </svg>
+                      Maximize
+
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="flex flex-col overflow-hidden rounded-xl bg-gradient-to-br from-white to-white p-6 shadow-sm dark:border-gray-850 dark:from-gray-925 dark:to-gray-950">
+            <div class="truncate">
+              <a href="/dbmdz/bert-large-cased-finetuned-conll03-english"
+                class="text-lg font-semibold">dbmdz/bert-large-cased-finetuned-conll03-english
+              </a>
+            </div>
+            <div class="flex w-full flex-1">
+              <div class="SVELTE_HYDRATER contents"
+                data-props="{&quot;apiUrl&quot;:&quot;https://api-inference.huggingface.co&quot;,&quot;callApiOnMount&quot;:true,&quot;model&quot;:{&quot;pipeline_tag&quot;:&quot;token-classification&quot;,&quot;id&quot;:&quot;dbmdz/bert-large-cased-finetuned-conll03-english&quot;,&quot;private&quot;:false,&quot;widgetData&quot;:[{&quot;text&quot;:&quot;My name is Clara and I live in Berkeley, California. I work at this cool company called Hugging Face.&quot;}]},&quot;noTitle&quot;:true,&quot;includeCredentials&quot;:true}"
+                data-target="InferenceWidget">
+                <div class="flex flex-col w-full max-w-full ">
+                  <div class="mb-2 flex items-center font-semibold"></div>
+                  <div
+                    class="mb-0.5 flex w-full max-w-full flex-wrap items-center justify-between text-sm text-gray-500">
+                    <a class="hover:underline" href="/tasks/token-classification" target="_blank"
+                      title="Learn more about token-classification">
+                      <div class="inline-flex items-center mr-2 mb-1.5">
+                        <svg class="mr-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                          aria-hidden="true" fill="currentColor" focusable="false" role="img" width="1em" height="1em"
+                          preserveAspectRatio="xMidYMid meet" viewBox="0 0 18 18">
+                          <path d="M11.075 10.1875H12.1625V11.275H11.075V10.1875Z"></path>
+                          <path d="M15.425 9.10004H16.5125V10.1875H15.425V9.10004Z"></path>
+                          <path d="M7.8125 3.66254H8.9V4.75004H7.8125V3.66254Z"></path>
+                          <path
+                            d="M8.90001 12.3625H6.72501V9.09998C6.72472 8.81165 6.61005 8.5352 6.40617 8.33132C6.20228 8.12744 5.92584 8.01277 5.63751 8.01248H2.37501C2.08667 8.01277 1.81023 8.12744 1.60635 8.33132C1.40246 8.5352 1.28779 8.81165 1.28751 9.09998V12.3625C1.28779 12.6508 1.40246 12.9273 1.60635 13.1311C1.81023 13.335 2.08667 13.4497 2.37501 13.45H5.63751V15.625C5.63779 15.9133 5.75246 16.1898 5.95635 16.3936C6.16023 16.5975 6.43667 16.7122 6.72501 16.7125H8.90001C9.18834 16.7122 9.46478 16.5975 9.66867 16.3936C9.87255 16.1898 9.98722 15.9133 9.98751 15.625V13.45C9.98722 13.1616 9.87255 12.8852 9.66867 12.6813C9.46478 12.4774 9.18834 12.3628 8.90001 12.3625V12.3625ZM2.37501 12.3625V9.09998H5.63751V12.3625H2.37501ZM6.72501 15.625V13.45H8.90001V15.625H6.72501Z">
+                          </path>
+                          <path
+                            d="M15.425 16.7125H13.25C12.9617 16.7122 12.6852 16.5976 12.4813 16.3937C12.2775 16.1898 12.1628 15.9134 12.1625 15.625V13.45C12.1628 13.1617 12.2775 12.8852 12.4813 12.6814C12.6852 12.4775 12.9617 12.3628 13.25 12.3625H15.425C15.7133 12.3628 15.9898 12.4775 16.1937 12.6814C16.3976 12.8852 16.5122 13.1617 16.5125 13.45V15.625C16.5122 15.9134 16.3976 16.1898 16.1937 16.3937C15.9898 16.5976 15.7133 16.7122 15.425 16.7125ZM13.25 13.45V15.625H15.425V13.45H13.25Z">
+                          </path>
+                          <path
+                            d="M15.425 1.48752H12.1625C11.8742 1.48781 11.5977 1.60247 11.3938 1.80636C11.19 2.01024 11.0753 2.28668 11.075 2.57502V5.83752H9.98751C9.69917 5.83781 9.42273 5.95247 9.21885 6.15636C9.01496 6.36024 8.9003 6.63668 8.90001 6.92502V8.01252C8.9003 8.30085 9.01496 8.5773 9.21885 8.78118C9.42273 8.98506 9.69917 9.09973 9.98751 9.10002H11.075C11.3633 9.09973 11.6398 8.98506 11.8437 8.78118C12.0476 8.5773 12.1622 8.30085 12.1625 8.01252V6.92502H15.425C15.7133 6.92473 15.9898 6.81006 16.1937 6.60618C16.3976 6.4023 16.5122 6.12585 16.5125 5.83752V2.57502C16.5122 2.28668 16.3976 2.01024 16.1937 1.80636C15.9898 1.60247 15.7133 1.48781 15.425 1.48752ZM9.98751 8.01252V6.92502H11.075V8.01252H9.98751ZM12.1625 5.83752V2.57502H15.425V5.83752H12.1625Z">
+                          </path>
+                          <path
+                            d="M4.55001 5.83752H2.37501C2.08667 5.83723 1.81023 5.72256 1.60635 5.51868C1.40246 5.3148 1.28779 5.03835 1.28751 4.75002V2.57502C1.28779 2.28668 1.40246 2.01024 1.60635 1.80636C1.81023 1.60247 2.08667 1.48781 2.37501 1.48752H4.55001C4.83834 1.48781 5.11478 1.60247 5.31867 1.80636C5.52255 2.01024 5.63722 2.28668 5.63751 2.57502V4.75002C5.63722 5.03835 5.52255 5.3148 5.31867 5.51868C5.11478 5.72256 4.83834 5.83723 4.55001 5.83752V5.83752ZM2.37501 2.57502V4.75002H4.55001V2.57502H2.37501Z">
+                          </path>
+                        </svg>
+                        <span>Token Classification</span>
+                      </div>
+                    </a>
+                    <div class="ml-auto flex gap-x-1">
+                      <div class="relative mb-1.5  false false">
+                        <div class="inline-flex w-32 justify-between rounded-md border border-gray-100 px-4 py-1">
+                          <div class="truncate text-sm">Examples</div>
+                          <svg class="-mr-1 ml-2 h-5 w-5 transition ease-in-out transform false"
+                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                            aria-hidden="true">
+                            <path fill-rule="evenodd"
+                              d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                              clip-rule="evenodd"></path>
+                          </svg>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <form>
+                    <label class="block ">
+                      <span
+                        class="  block overflow-auto resize-y py-2 px-3 w-full min-h-[42px] max-h-[500px] whitespace-pre-wrap inline-block border border-gray-200 rounded-lg shadow-inner outline-none focus:ring focus:ring-blue-200 focus:shadow-inner dark:bg-gray-925 svelte-1wfa7x9"
+                        role="textbox" contenteditable style="--placeholder: 'Your sentence here...'" spellcheck="false"
+                        dir="auto"></span>
+                    </label>
+                    <button class="btn-widget w-24 h-10 px-5 mt-2" type="submit">Compute</button>
+                  </form>
+                  <div class="mt-2">
+                    <div class="text-gray-400 text-xs">
+                      <!-- HTML_TAG_START -->
+                      This model can be loaded on the Inference API on-demand.
+                      <!-- HTML_TAG_END -->
+                    </div>
+                  </div>
+                  <div class="mt-auto pt-4 flex items-center text-xs text-gray-500">
+                    <button class="flex items-center cursor-not-allowed text-gray-300" disabled>
+                      <svg class="mr-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        aria-hidden="true" focusable="false" role="img" width="1em" height="1em"
+                        preserveAspectRatio="xMidYMid meet" viewBox="0 0 32 32" style="transform: rotate(360deg);">
+                        <path d="M31 16l-7 7l-1.41-1.41L28.17 16l-5.58-5.59L24 9l7 7z" fill="currentColor"></path>
+                        <path d="M1 16l7-7l1.41 1.41L3.83 16l5.58 5.59L8 23l-7-7z" fill="currentColor"></path>
+                        <path d="M12.419 25.484L17.639 6l1.932.518L14.35 26z" fill="currentColor"></path>
+                      </svg>
+                      JSON Output
+
+                    </button>
+                    <button class="flex items-center ml-auto">
+                      <svg class="mr-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        aria-hidden="true" focusable="false" role="img" width="1em" height="1em"
+                        preserveAspectRatio="xMidYMid meet" viewBox="0 0 32 32">
+                        <path d="M22 16h2V8h-8v2h6v6z" fill="currentColor"></path>
+                        <path d="M8 24h8v-2h-6v-6H8v8z" fill="currentColor"></path>
+                        <path
+                          d="M26 28H6a2.002 2.002 0 0 1-2-2V6a2.002 2.002 0 0 1 2-2h20a2.002 2.002 0 0 1 2 2v20a2.002 2.002 0 0 1-2 2zM6 6v20h20.001L26 6z"
+                          fill="currentColor"></path>
+                      </svg>
+                      Maximize
+
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="py-16 md:py-32">
+        <div class="container grid gap-10 lg:grid-cols-4">
+          <div
+            class="md:from-gray-50-to-white flex flex-col rounded-tl-lg md:bg-gradient-to-br md:pt-6 md:pl-6 lg:col-span-2">
+            <svg class="text-teal-400 text-3xl mb-2" xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" role="img" width="1em"
+              height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+              <path class="uim-primary"
+                d="M19.108 12.376q-.176-.201-.371-.403q.136-.144.264-.287c1.605-1.804 2.283-3.614 1.655-4.701c-.602-1.043-2.393-1.354-4.636-.918q-.331.065-.659.146q-.063-.216-.133-.43C14.467 3.49 13.238 1.999 11.982 2c-1.204 0-2.368 1.397-3.111 3.558q-.11.32-.203.644q-.219-.054-.44-.1c-2.366-.485-4.271-.165-4.898.924c-.601 1.043.027 2.75 1.528 4.472q.224.255.46.5c-.186.19-.361.381-.525.571c-1.465 1.698-2.057 3.376-1.457 4.415c.62 1.074 2.498 1.425 4.785.975q.278-.055.553-.124q.1.351.221.697C9.635 20.649 10.792 22 11.992 22c1.24 0 2.482-1.453 3.235-3.659c.06-.174.115-.355.169-.541q.355.088.715.156c2.203.417 3.952.09 4.551-.95c.619-1.075-.02-2.877-1.554-4.63zM4.07 7.452c.386-.67 1.943-.932 3.986-.512q.196.04.399.09a20.464 20.464 0 0 0-.422 2.678A20.887 20.887 0 0 0 5.93 11.4q-.219-.227-.427-.465C4.216 9.461 3.708 8.081 4.07 7.452zm3.887 5.728c-.51-.387-.985-.783-1.416-1.181c.43-.396.905-.79 1.415-1.176q-.028.589-.027 1.179q0 .59.028 1.178zm0 3.94a7.237 7.237 0 0 1-2.64.094a1.766 1.766 0 0 1-1.241-.657c-.365-.63.111-1.978 1.364-3.43q.236-.273.488-.532a20.49 20.49 0 0 0 2.107 1.7a20.802 20.802 0 0 0 .426 2.712q-.25.063-.505.114zm7.1-8.039q-.503-.317-1.018-.613q-.508-.292-1.027-.563c.593-.249 1.176-.462 1.739-.635a18.218 18.218 0 0 1 .306 1.811zM9.68 5.835c.636-1.85 1.578-2.98 2.304-2.98c.773-.001 1.777 1.218 2.434 3.197q.064.194.12.39a20.478 20.478 0 0 0-2.526.97a20.061 20.061 0 0 0-2.52-.981q.087-.3.188-.596zm-.4 1.424a18.307 18.307 0 0 1 1.73.642q-1.052.542-2.048 1.181c.08-.638.187-1.249.318-1.823zm-.317 7.66q.497.319 1.009.613q.522.3 1.057.576a18.196 18.196 0 0 1-1.744.665a19.144 19.144 0 0 1-.322-1.853zm5.456 3.146a7.236 7.236 0 0 1-1.238 2.333a1.766 1.766 0 0 1-1.188.748c-.729 0-1.658-1.085-2.29-2.896q-.112-.321-.206-.648a20.109 20.109 0 0 0 2.53-1.01a20.8 20.8 0 0 0 2.547.979q-.072.249-.155.494zm.362-1.324c-.569-.176-1.16-.393-1.762-.646q.509-.267 1.025-.565q.53-.306 1.032-.627a18.152 18.152 0 0 1-.295 1.838zm.447-4.743q0 .911-.057 1.82c-.493.334-1.013.66-1.554.972c-.54.311-1.073.597-1.597.856q-.827-.396-1.622-.854q-.79-.455-1.544-.969q-.07-.91-.07-1.822q0-.911.068-1.821a24.168 24.168 0 0 1 3.158-1.823q.816.397 1.603.851q.79.454 1.55.959q.065.914.065 1.831zm.956-5.093c1.922-.373 3.37-.122 3.733.507c.387.67-.167 2.148-1.554 3.706q-.115.129-.238.259a20.061 20.061 0 0 0-2.144-1.688a20.04 20.04 0 0 0-.405-2.649q.31-.076.608-.135zm-.13 3.885a18.164 18.164 0 0 1 1.462 1.188a18.12 18.12 0 0 1-1.457 1.208q.023-.594.023-1.188q0-.604-.028-1.208zm3.869 5.789c-.364.631-1.768.894-3.653.538q-.324-.061-.664-.146a20.069 20.069 0 0 0 .387-2.682a19.94 19.94 0 0 0 2.137-1.715q.177.183.336.364a7.234 7.234 0 0 1 1.403 2.238a1.766 1.766 0 0 1 .054 1.403zm-8.819-6.141a1.786 1.786 0 1 0 2.44.654a1.786 1.786 0 0 0-2.44-.654z"
+                fill="currentColor"></path>
+            </svg>
+            <div class="font-mono text-sm text-gray-400">Science</div>
+            <h2 class="mb-4 text-2xl font-semibold">Our Research contributions</h2>
+            <p class="max-w-md text-gray-500">We’re on a journey to advance and democratize NLP for
+              everyone. Along the way, we contribute to the
+              development of technology for the better.
+            </p>
+          </div>
+          <div class="bg-white">
+            <div
+              class="mb-6 flex h-36 items-center justify-center rounded-lg bg-gradient-to-r from-pink-50 to-white shadow-inner dark:from-gray-900 dark:to-gray-950">
+              <p class="text-6xl">🌸</p>
+            </div>
+            <div class="flex flex-col">
+              <div class="flex items-center rounded-lg">
+                <div>
+                  <p class="font-mono text-sm text-gray-500">T0</p>
+                  <h3 class="false font-semibold leading-tight text-gray-800">Multitask Prompted
+                    Training Enables Zero-Shot Task Generalization
+                  </h3>
+                </div>
+              </div>
+              <div class="h-6"></div>
+              <p class="leading-snug text-gray-500">
+                Open source state-of-the-art zero-shot language model out of
+                <a href="https://bigscience.huggingface.co/" target="_blank">BigScience</a>
+                .
+
+              </p>
+              <div class="h-6"></div>
+              <a href="https://bigscience.huggingface.co/blog/t0"
+                class="mt-auto self-start border-b border-gray-600 pb-0.5 text-gray-800 hover:border-gray-400 hover:text-gray-500">Read
+                more</a>
+            </div>
+          </div>
+          <div class="bg-white">
+            <div
+              class="mb-6 flex h-36 items-center justify-center rounded-lg bg-gradient-to-r from-green-50 to-white shadow-inner dark:from-gray-900 dark:to-gray-950">
+              <p class="text-6xl">🐎</p>
+            </div>
+            <div class="flex flex-col">
+              <div class="flex items-center rounded-lg">
+                <div>
+                  <p class="font-mono text-sm text-gray-500">DistilBERT</p>
+                  <h3 class="false font-semibold leading-tight text-gray-800">DistilBERT, a distilled
+                    version of BERT: smaller, faster, cheaper and lighter
+                  </h3>
+                </div>
+              </div>
+              <div class="h-6"></div>
+              <p class="leading-snug text-gray-500">A smaller, faster, lighter, cheaper version of BERT
+                obtained via model distillation.
+              </p>
+              <div class="h-6"></div>
+              <a href="https://medium.com/huggingface/distilbert-8cf3380435b5"
+                class="mt-auto self-start border-b border-gray-600 pb-0.5 text-gray-800 hover:border-gray-400 hover:text-gray-500">Read
+                more</a>
+            </div>
+          </div>
+          <div class="bg-white">
+            <div
+              class="mb-6 flex h-36 items-center justify-center rounded-lg bg-gradient-to-r from-teal-50 to-white shadow-inner dark:from-gray-900 dark:to-gray-950">
+              <p class="text-6xl">📚</p>
+            </div>
+            <div class="flex flex-col">
+              <div class="flex items-center rounded-lg">
+                <div>
+                  <p class="font-mono text-sm text-gray-500">HMTL</p>
+                  <h3 class="false font-semibold leading-tight text-gray-800">Hierarchical Multi-Task
+                    Learning
+                  </h3>
+                </div>
+              </div>
+              <div class="h-6"></div>
+              <p class="leading-snug text-gray-500">Learning embeddings from semantic tasks for multi-task
+                learning. We have open-sourced code and a demo.
+              </p>
+              <div class="h-6"></div>
+              <a href="https://arxiv.org/abs/1811.06031"
+                class="mt-auto self-start border-b border-gray-600 pb-0.5 text-gray-800 hover:border-gray-400 hover:text-gray-500">Read
+                more</a>
+            </div>
+          </div>
+          <div class="bg-white">
+            <div
+              class="mb-6 flex h-36 items-center justify-center rounded-lg bg-gradient-to-r from-indigo-50 to-white shadow-inner dark:from-gray-900 dark:to-gray-950">
+              <p class="text-6xl">🐸</p>
+            </div>
+            <div class="flex flex-col">
+              <div class="flex items-center rounded-lg">
+                <div>
+                  <p class="font-mono text-sm text-gray-500">Dynamical Language Models</p>
+                  <h3 class="false font-semibold leading-tight text-gray-800">Meta-learning for
+                    language modeling
+                  </h3>
+                </div>
+              </div>
+              <div class="h-6"></div>
+              <p class="leading-snug text-gray-500">A meta learner is trained via gradient descent to
+                continuously and dynamically update language model
+                weights.
+              </p>
+              <div class="h-6"></div>
+              <a href="https://arxiv.org/abs/1803.10631"
+                class="mt-auto self-start border-b border-gray-600 pb-0.5 text-gray-800 hover:border-gray-400 hover:text-gray-500">Read
+                more</a>
+            </div>
+          </div>
+          <div class="bg-white">
+            <div
+              class="mb-6 flex h-36 items-center justify-center rounded-lg bg-gradient-to-r from-pink-50 to-white shadow-inner dark:from-gray-900 dark:to-gray-950">
+              <p class="text-6xl">🤖</p>
+            </div>
+            <div class="flex flex-col">
+              <div class="flex items-center rounded-lg">
+                <div>
+                  <p class="font-mono text-sm text-gray-500">State of the art</p>
+                  <h3 class="false font-semibold leading-tight text-gray-800">Neuralcoref
+                  </h3>
+                </div>
+              </div>
+              <div class="h-6"></div>
+              <p class="leading-snug text-gray-500">Our open source coreference resolution library for
+                coreference. You can train it on your own dataset and
+                language.
+              </p>
+              <div class="h-6"></div>
+              <a href="/coref"
+                class="mt-auto self-start border-b border-gray-600 pb-0.5 text-gray-800 hover:border-gray-400 hover:text-gray-500">Read
+                more</a>
+            </div>
+          </div>
+          <div class="bg-white">
+            <div
+              class="mb-6 flex h-36 items-center justify-center rounded-lg bg-gradient-to-r from-purple-50 via-purple-50 to-white shadow-inner dark:from-gray-900 dark:to-gray-950">
+              <p class="text-7xl">🦄</p>
+            </div>
+            <div class="flex flex-col">
+              <div class="flex items-center rounded-lg">
+                <div>
+                  <p class="font-mono text-sm text-gray-500">Auto-complete your thoughts</p>
+                  <h3 class="false font-semibold leading-tight text-gray-800">Write with Transformers
+                  </h3>
+                </div>
+              </div>
+              <div class="h-6"></div>
+              <p class="leading-snug text-gray-500">This web app is the official demo of the Transformers
+                repository &#39;s text generation capabilities.
+              </p>
+              <div class="h-6"></div>
+              <a href="https://transformer.huggingface.co/"
+                class="mt-auto self-start border-b border-gray-600 pb-0.5 text-gray-800 hover:border-gray-400 hover:text-gray-500">Start
+                writing</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="border-t border-gray-100">
+      <div class="container pt-12 pb-32">
+        <div class="grid gap-8 sm:grid-cols-2 md:grid-cols-4">
+          <div>
+            <div class="mb-4 text-lg font-semibold">Website</div>
+            <ul class="space-y-1 text-gray-600 md:space-y-2">
+              <li>
+                <a class="hover:underline" href="/models">Models </a>
+              </li>
+              <li>
+                <a class="hover:underline" href="/datasets">Datasets </a>
+              </li>
+              <li>
+                <a class="hover:underline" href="/spaces">Spaces </a>
+              </li>
+              <li>
+                <a class="hover:underline" href="/tasks">Tasks </a>
+              </li>
+              <li>
+                <a class="hover:underline" href="/inference-endpoints">Expert Support </a>
+              </li>
+              <li>
+                <a class="hover:underline" href="/support">Expert Acceleration Program </a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <div class="mb-4 text-lg font-semibold">Company</div>
+            <ul class="space-y-1 text-gray-600 md:space-y-2">
+              <li>
+                <a class="hover:underline" href="/huggingface">About </a>
+              </li>
+              <li>
+                <a class="hover:underline" href="/shop">HF Store </a>
+              </li>
+              <li>
+                <a class="hover:underline" href="/brand">Brand assets </a>
+              </li>
+              <li>
+                <a class="hover:underline" href="/terms-of-service">Terms of service </a>
+              </li>
+              <li>
+                <a class="hover:underline" href="/privacy">Privacy </a>
+              </li>
+              <li>
+                <a class="hover:underline" href="https://apply.workable.com/huggingface/">Jobs </a>
+              </li>
+              <li>
+                <a class="hover:underline" href="mailto:press@huggingface.co">Press </a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <div class="mb-4 text-lg font-semibold">Resources</div>
+            <ul class="space-y-1 text-gray-600 md:space-y-2">
+              <li>
+                <a class="hover:underline" href="/learn">Learn </a>
+              </li>
+              <li>
+                <a class="hover:underline" href="/docs">Documentation </a>
+              </li>
+              <li>
+                <a class="hover:underline" href="/blog">Blog </a>
+              </li>
+              <li>
+                <a class="hover:underline" href="https://discuss.huggingface.co">Forum </a>
+              </li>
+              <li>
+                <a class="hover:underline" href="https://status.huggingface.co/">Service Status </a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <div class="mb-4 text-lg font-semibold">Social</div>
+            <ul class="space-y-1 text-gray-600 md:space-y-2">
+              <li>
+                <a class="hover:underline" href="https://github.com/huggingface">GitHub </a>
+              </li>
+              <li>
+                <a class="hover:underline" href="https://twitter.com/huggingface">Twitter </a>
+              </li>
+              <li>
+                <a class="hover:underline" href="https://www.linkedin.com/company/huggingface/">LinkedIn
+                </a>
+              </li>
+              <li>
+                <a class="hover:underline" href="/join/discord">Discord </a>
+              </li>
+              <li>
+                <a class="hover:underline" href="https://www.zhihu.com/org/huggingface">Zhihu </a>
+              </li>
+              <li>
+                <a target="_blank" class="hover:underline"
+                  href="https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/blog/chinese-language-blog/wechat.jpg">WeChat
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script>
+    import("/front/build/kube-3af01cd/index.js");
+    window.moonSha = "kube-3af01cd/";
+    window.hubConfig = JSON.parse(`{"features":{"signupDisabled":false},"sshGitUrl":"git@hf.co","moonHttpUrl":"https://huggingface.co","captchaApiKey":"bd5f2066-93dc-4bdd-a64b-a24646ca3859","stripePublicKey":"pk_live_x2tdjFXBCvXo2FFmMybezpeM00J6gPCAAc"}`);
+  </script>
+  <!-- Stripe -->
+  <script>
+    if (["hf.co", "huggingface.co"].includes(window.location.hostname)) {
+      const script = document.createElement("script");
+      script.src = "https://js.stripe.com/v3/";
+      script.async = true;
+      document.head.appendChild(script);
+    }
+  </script>
+  <!-- Google analytics v4 -->
+  <script>
+    if (["hf.co", "huggingface.co"].includes(window.location.hostname)) {
+      const script = document.createElement("script");
+      script.src = "https://www.googletagmanager.com/gtag/js?id=G-8Q63TH4CSL";
+      script.async = true;
+      document.head.appendChild(script);
+
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        if (window.dataLayer !== undefined) {
+          window.dataLayer.push(arguments);
+        }
+      }
+      gtag("js", new Date());
+      gtag("config", "G-8Q63TH4CSL", {
+        page_path: "/"
+      });
+      /// ^ See https://developers.google.com/analytics/devguides/collection/gtagjs/pages
+      gtag("consent", "default", {
+        ad_storage: "denied",
+        analytics_storage: "denied"
+      });
+      /// ^ See https://developers.google.com/tag-platform/gtagjs/reference#consent
+      /// TODO: ask the user for their consent and update this with gtag('consent', 'update')
+    }
+  </script>
+  <!-- Google Analytics v3 (deprecated) -->
+  <script>
+    if (["hf.co", "huggingface.co"].includes(window.location.hostname)) {
+      (function (i, s, o, g, r, a, m) {
+        i["GoogleAnalyticsObject"] = r;
+        (i[r] = i[r] || function () {
+          (i[r].q = i[r].q || []).push(arguments);
+        }
+        ),
+          (i[r].l = 1 * new Date());
+        (a = s.createElement(o)),
+          (m = s.getElementsByTagName(o)[0]);
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m);
+      }
+      )(window, document, "script", "https://www.google-analytics.com/analytics.js", "ganalytics");
+      ganalytics("create", "UA-83738774-2", "auto");
+      ganalytics("send", "pageview", "/");
+    }
+  </script>
+</body>
+
+</html>
