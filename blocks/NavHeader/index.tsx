@@ -120,7 +120,7 @@ export default function NavHeader() {
                     preserveAspectRatio="xMidYMid meet"
                     viewBox="0 0 25 25"
                   >
-                    <ellipse cx="12.5" cy="5" fill="currentColor" fillOpacity="0.25" rx="7.5" ry="2"></ellipse>
+                    <ellipse cx="12.5" cy="5" fill="currentColor" fill-opacity="0.25" rx="7.5" ry="2"></ellipse>
                     <path
                       d="M12.5 15C16.6421 15 20 14.1046 20 13V20C20 21.1046 16.6421 22 12.5 22C8.35786 22 5 21.1046 5 20V13C5 14.1046 8.35786 15 12.5 15Z"
                       fill="currentColor"
