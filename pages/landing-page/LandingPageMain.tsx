@@ -37,13 +37,13 @@ export default function LandingPageMain() {
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
+                    fillRule="evenodd"
+                    clipRule="evenodd"
                     d="M46.6517 14.9309C48.2799 11.0495 45.4292 6.76251 41.2202 6.76251H24.1817C19.8066 6.76251 15.9021 9.50789 14.4218 13.6249L8.51785 30.0453C6.77792 34.8844 6.77792 40.1785 8.51785 45.0177L14.4218 61.438C15.9021 65.5551 19.8066 68.3004 24.1817 68.3004H41.2202C45.4292 68.3004 48.2799 64.0134 46.6517 60.132L40.7616 46.0903C38.465 40.6155 38.465 34.4475 40.7616 28.9727L46.6517 14.9309Z"
                     fill="#861FFF"
                     stroke="black"
-                    stroke-width="12.6835"
-                    stroke-linejoin="round"
+                    strokeWidth="12.6835"
+                    strokeLinejoin="round"
                   ></path>
                   <circle
                     cx="53.1334"
@@ -51,8 +51,8 @@ export default function LandingPageMain() {
                     r="13.9518"
                     fill="#FF3270"
                     stroke="black"
-                    stroke-width="12.6835"
-                    stroke-linejoin="round"
+                    strokeWidth="12.6835"
+                    strokeLinejoin="round"
                   ></circle>
                 </svg>
                 <a href="/inference-endpoints" className="underline decoration-indigo-200 hover:decoration-indigo-700">
@@ -95,7 +95,7 @@ export default function LandingPageMain() {
                 className="btn inset-0 text-lg font-bold dark:hover:text-yellow-500"
                 href="https://github.com/huggingface/transformers"
               >
-                106,934
+                108,050
               </a>
             </div>
           </div>
@@ -139,7 +139,7 @@ export default function LandingPageMain() {
                   <div className="truncate text-sm leading-tight text-gray-400">
                     <span className="capitalize">company</span>
                     <span className="px-0.5 text-xs text-gray-300">•</span>
-                    697 models
+                    700 models
                   </div>
                 </div>
               </a>
@@ -176,7 +176,7 @@ export default function LandingPageMain() {
                   <div className="truncate text-sm leading-tight text-gray-400">
                     <span className="capitalize">company</span>
                     <span className="px-0.5 text-xs text-gray-300">•</span>
-                    591 models
+                    593 models
                   </div>
                 </div>
               </a>
@@ -195,7 +195,7 @@ export default function LandingPageMain() {
                   <div className="truncate text-sm leading-tight text-gray-400">
                     <span className="capitalize">company</span>
                     <span className="px-0.5 text-xs text-gray-300">•</span>
-                    122 models
+                    131 models
                   </div>
                 </div>
               </a>
@@ -214,7 +214,7 @@ export default function LandingPageMain() {
                   <div className="truncate text-sm leading-tight text-gray-400">
                     <span className="capitalize">non-profit</span>
                     <span className="px-0.5 text-xs text-gray-300">•</span>
-                    73 models
+                    76 models
                   </div>
                 </div>
               </a>
@@ -752,7 +752,8 @@ export default function LandingPageMain() {
                 data-target="InferenceWidget"
               >
                 <div className="flex w-full max-w-full flex-col ">
-                  <div className="mb-2 flex items-center font-semibold"></div>
+                  {" "}
+                  <div className="mb-2 flex items-center font-semibold"></div>{" "}
                   <div className="mb-0.5 flex w-full max-w-full flex-wrap items-center justify-between text-sm text-gray-500">
                     <a
                       className="hover:underline"
@@ -777,58 +778,127 @@ export default function LandingPageMain() {
                           <path d="M12.3625 13.85H10.1875V12.7625H12.3625V10.5875H13.45V12.7625C13.4497 13.0508 13.335 13.3272 13.1312 13.5311C12.9273 13.735 12.6508 13.8497 12.3625 13.85V13.85Z"></path>
                           <path d="M5.8375 8.41246H4.75V6.23746C4.75029 5.94913 4.86496 5.67269 5.06884 5.4688C5.27272 5.26492 5.54917 5.15025 5.8375 5.14996H8.0125V6.23746H5.8375V8.41246Z"></path>
                           <path d="M15.625 5.14998H13.45V2.97498C13.4497 2.68665 13.335 2.4102 13.1312 2.20632C12.9273 2.00244 12.6508 1.88777 12.3625 1.88748H2.575C2.28666 1.88777 2.01022 2.00244 1.80633 2.20632C1.60245 2.4102 1.48778 2.68665 1.4875 2.97498V12.7625C1.48778 13.0508 1.60245 13.3273 1.80633 13.5311C2.01022 13.735 2.28666 13.8497 2.575 13.85H4.75V16.025C4.75028 16.3133 4.86495 16.5898 5.06883 16.7936C5.27272 16.9975 5.54916 17.1122 5.8375 17.1125H15.625C15.9133 17.1122 16.1898 16.9975 16.3937 16.7936C16.5975 16.5898 16.7122 16.3133 16.7125 16.025V6.23748C16.7122 5.94915 16.5975 5.6727 16.3937 5.46882C16.1898 5.26494 15.9133 5.15027 15.625 5.14998V5.14998ZM15.625 16.025H5.8375V13.85H8.0125V12.7625H5.8375V10.5875H4.75V12.7625H2.575V2.97498H12.3625V5.14998H10.1875V6.23748H12.3625V8.41248H13.45V6.23748H15.625V16.025Z"></path>
-                        </svg>
+                        </svg>{" "}
                         <span>Fill-Mask</span>
                       </div>
-                    </a>
+                    </a>{" "}
                     <div className="ml-auto flex gap-x-1">
+                      {" "}
                       <div className="false false  relative mb-1.5">
                         <div className="inline-flex w-32 justify-between rounded-md border border-gray-100 px-4 py-1">
-                          <div className="truncate text-sm">Examples</div>
+                          <div className="truncate text-sm">Examples</div>{" "}
                           <svg
-                            className="false -mr-1 ml-2 h-5 w-5 transition ease-in-out"
+                            className="false -mr-1 ml-2 h-5 w-5 transform transition ease-in-out"
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 20 20"
                             fill="currentColor"
                             aria-hidden="true"
                           >
                             <path
-                              fill-rule="evenodd"
+                              fillRule="evenodd"
                               d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                              clip-rule="evenodd"
+                              clipRule="evenodd"
                             ></path>
                           </svg>
-                        </div>
+                        </div>{" "}
                       </div>
                     </div>
-                  </div>
+                  </div>{" "}
                   <form>
                     <div className="mb-1.5 text-sm text-gray-500">
                       Mask token: <code>[MASK]</code>
-                    </div>
+                    </div>{" "}
                     <label className="block ">
+                      {" "}
                       <span
                         className="  dark:bg-gray-925 svelte-1wfa7x9 block inline-block max-h-[500px] min-h-[42px] w-full resize-y overflow-auto whitespace-pre-wrap rounded-lg border border-gray-200 px-3 py-2 shadow-inner outline-none focus:shadow-inner focus:ring focus:ring-blue-200"
                         role="textbox"
-                        contentEditable
+                        contentEditable=""
+                        // style={ "--placeholder": 'Your sentence here...' }
                         spellCheck="false"
                         dir="auto"
-                      ></span>
-                      {/* style={{ '--placeholder': 'Your sentence here...' }} */}
-                    </label>
+                      >
+                        The goal of life is [MASK].
+                      </span>
+                    </label>{" "}
                     <button className="btn-widget mt-2 h-10 w-24 px-5" type="submit">
                       Compute
                     </button>
-                  </form>
+                  </form>{" "}
                   <div className="mt-2">
                     <div className="text-xs text-gray-400">
-                      {/* <!-- HTML_TAG_START --> */}
-                      This model can be loaded on the Inference API on-demand.
-                      {/* <!-- HTML_TAG_END --> */}
+                      Computation time on Intel Xeon 3rd Gen Scalable cpu: cached
+                    </div>{" "}
+                  </div>{" "}
+                  <div className="space-y-3.5 pt-4">
+                    <div
+                      className="animate__animated animate__fadeIn false flex items-start justify-between font-mono text-xs leading-none transition duration-200 ease-in-out"
+                      style={{ animationDelay: "0s" }}
+                    >
+                      <div className="flex-1">
+                        <div
+                          className="mb-1 h-1 rounded bg-gradient-to-r from-purple-400 to-purple-200 dark:from-purple-400 dark:to-purple-600"
+                          style={{ width: "80%" }}
+                        ></div>{" "}
+                        <span className="leading-snug">happiness</span>
+                      </div>{" "}
+                      <span className="pl-2">0.036</span>{" "}
                     </div>
-                  </div>
+                    <div
+                      className="animate__animated animate__fadeIn false flex items-start justify-between font-mono text-xs leading-none transition duration-200 ease-in-out"
+                      style={{ animationDelay: "0.04s" }}
+                    >
+                      <div className="flex-1">
+                        <div
+                          className="mb-1 h-1 rounded bg-gradient-to-r from-purple-400 to-purple-200 dark:from-purple-400 dark:to-purple-600"
+                          style={{ width: "68%" }}
+                        ></div>{" "}
+                        <span className="leading-snug">survival</span>
+                      </div>{" "}
+                      <span className="pl-2">0.031</span>{" "}
+                    </div>
+                    <div
+                      className="animate__animated animate__fadeIn false flex items-start justify-between font-mono text-xs leading-none transition duration-200 ease-in-out"
+                      style={{ animationDelay: "0.08s" }}
+                    >
+                      <div className="flex-1">
+                        <div
+                          className="mb-1 h-1 rounded bg-gradient-to-r from-purple-400 to-purple-200 dark:from-purple-400 dark:to-purple-600"
+                          style={{ width: "38%" }}
+                        ></div>{" "}
+                        <span className="leading-snug">salvation</span>
+                      </div>{" "}
+                      <span className="pl-2">0.017</span>{" "}
+                    </div>
+                    <div
+                      className="animate__animated animate__fadeIn false flex items-start justify-between font-mono text-xs leading-none transition duration-200 ease-in-out"
+                      style={{ animationDelay: "0.12s" }}
+                    >
+                      <div className="flex-1">
+                        <div
+                          className="mb-1 h-1 rounded bg-gradient-to-r from-purple-400 to-purple-200 dark:from-purple-400 dark:to-purple-600"
+                          style={{ width: "37%" }}
+                        ></div>{" "}
+                        <span className="leading-snug">freedom</span>
+                      </div>{" "}
+                      <span className="pl-2">0.017</span>{" "}
+                    </div>
+                    <div
+                      className="animate__animated animate__fadeIn false flex items-start justify-between font-mono text-xs leading-none transition duration-200 ease-in-out"
+                      style={{ animationDelay: "0.16s" }}
+                    >
+                      <div className="flex-1">
+                        <div
+                          className="mb-1 h-1 rounded bg-gradient-to-r from-purple-400 to-purple-200 dark:from-purple-400 dark:to-purple-600"
+                          style={{ width: "34%" }}
+                        ></div>{" "}
+                        <span className="leading-snug">unity</span>
+                      </div>{" "}
+                      <span className="pl-2">0.015</span>{" "}
+                    </div>
+                  </div>{" "}
                   <div className="mt-auto flex items-center pt-4 text-xs text-gray-500">
-                    <button className="flex cursor-not-allowed items-center text-gray-300" disabled>
+                    <button className="flex items-center ">
                       <svg
                         className="mr-1"
                         xmlns="http://www.w3.org/2000/svg"
@@ -847,7 +917,7 @@ export default function LandingPageMain() {
                         <path d="M12.419 25.484L17.639 6l1.932.518L14.35 26z" fill="currentColor"></path>
                       </svg>
                       JSON Output
-                    </button>
+                    </button>{" "}
                     <button className="ml-auto flex items-center">
                       <svg
                         className="mr-1"
@@ -870,7 +940,7 @@ export default function LandingPageMain() {
                       </svg>
                       Maximize
                     </button>
-                  </div>
+                  </div>{" "}
                 </div>
               </div>
             </div>
@@ -888,7 +958,8 @@ export default function LandingPageMain() {
                 data-target="InferenceWidget"
               >
                 <div className="flex w-full max-w-full flex-col ">
-                  <div className="mb-2 flex items-center font-semibold"></div>
+                  {" "}
+                  <div className="mb-2 flex items-center font-semibold"></div>{" "}
                   <div className="mb-0.5 flex w-full max-w-full flex-wrap items-center justify-between text-sm text-gray-500">
                     <a
                       className="hover:underline"
@@ -917,55 +988,109 @@ export default function LandingPageMain() {
                           <path d="M15.425 16.7125H13.25C12.9617 16.7122 12.6852 16.5976 12.4813 16.3937C12.2775 16.1898 12.1628 15.9134 12.1625 15.625V13.45C12.1628 13.1617 12.2775 12.8852 12.4813 12.6814C12.6852 12.4775 12.9617 12.3628 13.25 12.3625H15.425C15.7133 12.3628 15.9898 12.4775 16.1937 12.6814C16.3976 12.8852 16.5122 13.1617 16.5125 13.45V15.625C16.5122 15.9134 16.3976 16.1898 16.1937 16.3937C15.9898 16.5976 15.7133 16.7122 15.425 16.7125ZM13.25 13.45V15.625H15.425V13.45H13.25Z"></path>
                           <path d="M15.425 1.48752H12.1625C11.8742 1.48781 11.5977 1.60247 11.3938 1.80636C11.19 2.01024 11.0753 2.28668 11.075 2.57502V5.83752H9.98751C9.69917 5.83781 9.42273 5.95247 9.21885 6.15636C9.01496 6.36024 8.9003 6.63668 8.90001 6.92502V8.01252C8.9003 8.30085 9.01496 8.5773 9.21885 8.78118C9.42273 8.98506 9.69917 9.09973 9.98751 9.10002H11.075C11.3633 9.09973 11.6398 8.98506 11.8437 8.78118C12.0476 8.5773 12.1622 8.30085 12.1625 8.01252V6.92502H15.425C15.7133 6.92473 15.9898 6.81006 16.1937 6.60618C16.3976 6.4023 16.5122 6.12585 16.5125 5.83752V2.57502C16.5122 2.28668 16.3976 2.01024 16.1937 1.80636C15.9898 1.60247 15.7133 1.48781 15.425 1.48752ZM9.98751 8.01252V6.92502H11.075V8.01252H9.98751ZM12.1625 5.83752V2.57502H15.425V5.83752H12.1625Z"></path>
                           <path d="M4.55001 5.83752H2.37501C2.08667 5.83723 1.81023 5.72256 1.60635 5.51868C1.40246 5.3148 1.28779 5.03835 1.28751 4.75002V2.57502C1.28779 2.28668 1.40246 2.01024 1.60635 1.80636C1.81023 1.60247 2.08667 1.48781 2.37501 1.48752H4.55001C4.83834 1.48781 5.11478 1.60247 5.31867 1.80636C5.52255 2.01024 5.63722 2.28668 5.63751 2.57502V4.75002C5.63722 5.03835 5.52255 5.3148 5.31867 5.51868C5.11478 5.72256 4.83834 5.83723 4.55001 5.83752V5.83752ZM2.37501 2.57502V4.75002H4.55001V2.57502H2.37501Z"></path>
-                        </svg>
+                        </svg>{" "}
                         <span>Token Classification</span>
                       </div>
-                    </a>
+                    </a>{" "}
                     <div className="ml-auto flex gap-x-1">
+                      {" "}
                       <div className="false false  relative mb-1.5">
                         <div className="inline-flex w-32 justify-between rounded-md border border-gray-100 px-4 py-1">
-                          <div className="truncate text-sm">Examples</div>
+                          <div className="truncate text-sm">Examples</div>{" "}
                           <svg
-                            className="false -mr-1 ml-2 h-5 w-5 transition ease-in-out"
+                            className="false -mr-1 ml-2 h-5 w-5 transform transition ease-in-out"
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 20 20"
                             fill="currentColor"
                             aria-hidden="true"
                           >
                             <path
-                              fill-rule="evenodd"
+                              fillRule="evenodd"
                               d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                              clip-rule="evenodd"
+                              clipRule="evenodd"
                             ></path>
                           </svg>
-                        </div>
+                        </div>{" "}
                       </div>
                     </div>
-                  </div>
+                  </div>{" "}
                   <form>
                     <label className="block ">
+                      {" "}
                       <span
                         className="  dark:bg-gray-925 svelte-1wfa7x9 block inline-block max-h-[500px] min-h-[42px] w-full resize-y overflow-auto whitespace-pre-wrap rounded-lg border border-gray-200 px-3 py-2 shadow-inner outline-none focus:shadow-inner focus:ring focus:ring-blue-200"
                         role="textbox"
-                        contentEditable
+                        contentEditable=""
+                        // style="--placeholder: 'Your sentence here...';"
                         spellCheck="false"
                         dir="auto"
-                      ></span>
-                      {/* style="--placeholder: 'Your sentence here...'" */}
-                    </label>
+                      >
+                        My name is Clara and I live in Berkeley, California. I work at this cool company called Hugging
+                        Face.
+                      </span>
+                    </label>{" "}
                     <button className="btn-widget mt-2 h-10 w-24 px-5" type="submit">
                       Compute
-                    </button>
-                  </form>
+                    </button>{" "}
+                  </form>{" "}
                   <div className="mt-2">
                     <div className="text-xs text-gray-400">
-                      {/* <!-- HTML_TAG_START --> */}
-                      This model can be loaded on the Inference API on-demand.
-                      {/* <!-- HTML_TAG_END --> */}
-                    </div>
-                  </div>
+                      Computation time on Intel Xeon 3rd Gen Scalable cpu: cached
+                    </div>{" "}
+                  </div>{" "}
+                  <div className="mt-2 leading-8 text-gray-800">
+                    My name is{" "}
+                    <span
+                      data-entity="PER"
+                      data-hash="7"
+                      data-index=""
+                      className="rounded bg-pink-100 px-1 py-0.5 text-pink-800 dark:bg-pink-700 dark:text-pink-100"
+                    >
+                      Clara
+                      <span className="ml-1 select-none rounded bg-pink-500 px-0.5 text-xs font-semibold text-pink-100">
+                        PER
+                      </span>
+                    </span>{" "}
+                    and I live in{" "}
+                    <span
+                      data-entity="LOC"
+                      data-hash="6"
+                      data-index=""
+                      className="rounded bg-fuchsia-100 px-1 py-0.5 text-fuchsia-800 dark:bg-fuchsia-700 dark:text-fuchsia-100"
+                    >
+                      Berkeley
+                      <span className="ml-1 select-none rounded bg-fuchsia-500 px-0.5 text-xs font-semibold text-fuchsia-100">
+                        LOC
+                      </span>
+                    </span>
+                    ,{" "}
+                    <span
+                      data-entity="LOC"
+                      data-hash="6"
+                      data-index=""
+                      className="rounded bg-fuchsia-100 px-1 py-0.5 text-fuchsia-800 dark:bg-fuchsia-700 dark:text-fuchsia-100"
+                    >
+                      California
+                      <span className="ml-1 select-none rounded bg-fuchsia-500 px-0.5 text-xs font-semibold text-fuchsia-100">
+                        LOC
+                      </span>
+                    </span>
+                    . I work at this cool company called{" "}
+                    <span
+                      data-entity="ORG"
+                      data-hash="0"
+                      data-index=""
+                      className="rounded bg-teal-100 px-1 py-0.5 text-teal-800 dark:bg-teal-700 dark:text-teal-100"
+                    >
+                      Hugging Face
+                      <span className="ml-1 select-none rounded bg-teal-500 px-0.5 text-xs font-semibold text-teal-100">
+                        ORG
+                      </span>
+                    </span>
+                    .
+                  </div>{" "}
                   <div className="mt-auto flex items-center pt-4 text-xs text-gray-500">
-                    <button className="flex cursor-not-allowed items-center text-gray-300" disabled>
+                    <button className="flex items-center ">
                       <svg
                         className="mr-1"
                         xmlns="http://www.w3.org/2000/svg"
@@ -984,7 +1109,7 @@ export default function LandingPageMain() {
                         <path d="M12.419 25.484L17.639 6l1.932.518L14.35 26z" fill="currentColor"></path>
                       </svg>
                       JSON Output
-                    </button>
+                    </button>{" "}
                     <button className="ml-auto flex items-center">
                       <svg
                         className="mr-1"
@@ -1007,7 +1132,7 @@ export default function LandingPageMain() {
                       </svg>
                       Maximize
                     </button>
-                  </div>
+                  </div>{" "}
                 </div>
               </div>
             </div>

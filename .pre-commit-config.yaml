@@ -20,5 +20,5 @@ repos:
             "120",
             "--no-semi",
             "--write",
-            "./**/*.{ts,tsx,js}",
+            "./**/*.{ts,tsx,js,css}",
           ]

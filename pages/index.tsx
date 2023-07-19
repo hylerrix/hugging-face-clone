@@ -37,7 +37,10 @@ export default function Web() {
         <title>Hugging Face – The AI community building the future.</title>
         <script defer data-domain="huggingface.co" src="/js/script.js"></script>
       </Head>
-      <div className="HomePage flex min-h-screen flex-col bg-white text-black dark:bg-gray-950">
+      <div
+        className="HomePage flex min-h-screen flex-col bg-white text-black dark:bg-gray-950"
+        style={{ fontSize: 16 }}
+      >
         <div className="flex min-h-screen flex-col">
           <NavHeader />
           <div className="SVELTE_HYDRATER contents" data-props="{}" data-target="GoogleAnalyticsTracker"></div>

@@ -20,7 +20,6 @@ export default function NavHeader() {
                 placeholder="Search models, datasets, users..."
                 spellCheck="false"
                 type="text"
-                value=""
               />
               <svg
                 className="absolute left-2.5 top-1/2 -translate-y-1/2 transform text-gray-400"
@@ -56,8 +55,8 @@ export default function NavHeader() {
                   fill="currentColor"
                 >
                   <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
+                    fillRule="evenodd"
+                    clipRule="evenodd"
                     d="M1.65039 2.9999C1.65039 2.8066 1.80709 2.6499 2.00039 2.6499H8.00039C8.19369 2.6499 8.35039 2.8066 8.35039 2.9999C8.35039 3.1932 8.19369 3.3499 8.00039 3.3499H2.00039C1.80709 3.3499 1.65039 3.1932 1.65039 2.9999ZM1.65039 4.9999C1.65039 4.8066 1.80709 4.6499 2.00039 4.6499H8.00039C8.19369 4.6499 8.35039 4.8066 8.35039 4.9999C8.35039 5.1932 8.19369 5.3499 8.00039 5.3499H2.00039C1.80709 5.3499 1.65039 5.1932 1.65039 4.9999ZM2.00039 6.6499C1.80709 6.6499 1.65039 6.8066 1.65039 6.9999C1.65039 7.1932 1.80709 7.3499 2.00039 7.3499H8.00039C8.19369 7.3499 8.35039 7.1932 8.35039 6.9999C8.35039 6.8066 8.19369 6.6499 8.00039 6.6499H2.00039Z"
                   ></path>
                 </svg>
@@ -121,7 +120,7 @@ export default function NavHeader() {
                     preserveAspectRatio="xMidYMid meet"
                     viewBox="0 0 25 25"
                   >
-                    <ellipse cx="12.5" cy="5" fill="currentColor" fill-opacity="0.25" rx="7.5" ry="2"></ellipse>
+                    <ellipse cx="12.5" cy="5" fill="currentColor" fillOpacity="0.25" rx="7.5" ry="2"></ellipse>
                     <path
                       d="M12.5 15C16.6421 15 20 14.1046 20 13V20C20 21.1046 16.6421 22 12.5 22C8.35786 22 5 21.1046 5 20V13C5 14.1046 8.35786 15 12.5 15Z"
                       fill="currentColor"
@@ -163,8 +162,8 @@ export default function NavHeader() {
                     ></path>
                     <path
                       opacity=".75"
-                      fill-rule="evenodd"
-                      clip-rule="evenodd"
+                      fillRule="evenodd"
+                      clipRule="evenodd"
                       d="M3 4.914C3 3.857 3.857 3 4.914 3h6.514c.884 0 1.628.6 1.848 1.414a5.171 5.171 0 0 1 7.31 7.31c.815.22 1.414.964 1.414 1.848v6.514A1.914 1.914 0 0 1 20.086 22H4.914A1.914 1.914 0 0 1 3 20.086V4.914Zm3.016 1.102v4.31h4.31v-4.31h-4.31Zm0 12.968v-4.31h4.31v4.31h-4.31Zm8.658 0v-4.31h4.31v4.31h-4.31Zm0-10.813a2.155 2.155 0 1 1 4.31 0 2.155 2.155 0 0 1-4.31 0Z"
                       fill="currentColor"
                     ></path>
@@ -201,11 +200,11 @@ export default function NavHeader() {
                     <path
                       d="M10.7999 10.8792V28.5483C10.2136 28.5475 9.63494 28.4139 9.10745 28.1578C8.5429 27.8312 8.074 27.3621 7.74761 26.7975C7.42122 26.2327 7.24878 25.5923 7.24756 24.9402V10.9908C7.25062 10.3319 7.42358 9.68487 7.74973 9.1123L10.7999 10.8792Z"
                       fill="currentColor"
-                      fill-opacity="0.75"
+                      fillOpacity="0.75"
                     ></path>
                     <path
-                      fill-rule="evenodd"
-                      clip-rule="evenodd"
+                      fillRule="evenodd"
+                      clipRule="evenodd"
                       d="M21.3368 10.8499V6.918C21.3331 6.25959 21.16 5.61234 20.8346 5.03949L10.7971 10.8727L10.8046 10.874L21.3368 10.8499Z"
                       fill="currentColor"
                     ></path>
@@ -279,26 +278,26 @@ export default function NavHeader() {
                       preserveAspectRatio="xMidYMid meet"
                     >
                       <path
-                        fill-rule="evenodd"
-                        clip-rule="evenodd"
+                        fillRule="evenodd"
+                        clipRule="evenodd"
                         d="M14.4504 3.30221C14.4504 2.836 14.8284 2.45807 15.2946 2.45807H28.4933C28.9595 2.45807 29.3374 2.836 29.3374 3.30221C29.3374 3.76842 28.9595 4.14635 28.4933 4.14635H15.2946C14.8284 4.14635 14.4504 3.76842 14.4504 3.30221Z"
                         fill="currentColor"
                       ></path>
                       <path
-                        fill-rule="evenodd"
-                        clip-rule="evenodd"
+                        fillRule="evenodd"
+                        clipRule="evenodd"
                         d="M14.4504 9.00002C14.4504 8.53382 14.8284 8.15588 15.2946 8.15588H28.4933C28.9595 8.15588 29.3374 8.53382 29.3374 9.00002C29.3374 9.46623 28.9595 9.84417 28.4933 9.84417H15.2946C14.8284 9.84417 14.4504 9.46623 14.4504 9.00002Z"
                         fill="currentColor"
                       ></path>
                       <path
-                        fill-rule="evenodd"
-                        clip-rule="evenodd"
+                        fillRule="evenodd"
+                        clipRule="evenodd"
                         d="M14.4504 14.6978C14.4504 14.2316 14.8284 13.8537 15.2946 13.8537H28.4933C28.9595 13.8537 29.3374 14.2316 29.3374 14.6978C29.3374 15.164 28.9595 15.542 28.4933 15.542H15.2946C14.8284 15.542 14.4504 15.164 14.4504 14.6978Z"
                         fill="currentColor"
                       ></path>
                       <path
-                        fill-rule="evenodd"
-                        clip-rule="evenodd"
+                        fillRule="evenodd"
+                        clipRule="evenodd"
                         d="M1.94549 6.87377C2.27514 6.54411 2.80962 6.54411 3.13928 6.87377L6.23458 9.96907L9.32988 6.87377C9.65954 6.54411 10.194 6.54411 10.5237 6.87377C10.8533 7.20343 10.8533 7.73791 10.5237 8.06756L6.23458 12.3567L1.94549 8.06756C1.61583 7.73791 1.61583 7.20343 1.94549 6.87377Z"
                         fill="currentColor"
                       ></path>
@@ -319,7 +318,7 @@ export default function NavHeader() {
               </li>
               <li>
                 <a className="btn ml-2" href="/join">
-                  Sign Up{" "}
+                  Sign Up
                 </a>
               </li>
             </ul>
