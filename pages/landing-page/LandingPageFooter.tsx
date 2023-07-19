@@ -8,32 +8,32 @@ export default function LandingPageFooter() {
             <ul className="space-y-1 text-gray-600 md:space-y-2">
               <li>
                 <a className="hover:underline" href="/models">
-                  Models{" "}
+                  Models
                 </a>
               </li>
               <li>
                 <a className="hover:underline" href="/datasets">
-                  Datasets{" "}
+                  Datasets
                 </a>
               </li>
               <li>
                 <a className="hover:underline" href="/spaces">
-                  Spaces{" "}
+                  Spaces
                 </a>
               </li>
               <li>
                 <a className="hover:underline" href="/tasks">
-                  Tasks{" "}
+                  Tasks
                 </a>
               </li>
               <li>
                 <a className="hover:underline" href="/inference-endpoints">
-                  Expert Support{" "}
+                  Expert Support
                 </a>
               </li>
               <li>
                 <a className="hover:underline" href="/support">
-                  Expert Acceleration Program{" "}
+                  Expert Acceleration Program
                 </a>
               </li>
             </ul>
@@ -43,37 +43,37 @@ export default function LandingPageFooter() {
             <ul className="space-y-1 text-gray-600 md:space-y-2">
               <li>
                 <a className="hover:underline" href="/huggingface">
-                  About{" "}
+                  About
                 </a>
               </li>
               <li>
                 <a className="hover:underline" href="/shop">
-                  HF Store{" "}
+                  HF Store
                 </a>
               </li>
               <li>
                 <a className="hover:underline" href="/brand">
-                  Brand assets{" "}
+                  Brand assets
                 </a>
               </li>
               <li>
                 <a className="hover:underline" href="/terms-of-service">
-                  Terms of service{" "}
+                  Terms of service
                 </a>
               </li>
               <li>
                 <a className="hover:underline" href="/privacy">
-                  Privacy{" "}
+                  Privacy
                 </a>
               </li>
               <li>
                 <a className="hover:underline" href="https://apply.workable.com/huggingface/">
-                  Jobs{" "}
+                  Jobs
                 </a>
               </li>
               <li>
                 <a className="hover:underline" href="mailto:press@huggingface.co">
-                  Press{" "}
+                  Press
                 </a>
               </li>
             </ul>
@@ -83,27 +83,27 @@ export default function LandingPageFooter() {
             <ul className="space-y-1 text-gray-600 md:space-y-2">
               <li>
                 <a className="hover:underline" href="/learn">
-                  Learn{" "}
+                  Learn
                 </a>
               </li>
               <li>
                 <a className="hover:underline" href="/docs">
-                  Documentation{" "}
+                  Documentation
                 </a>
               </li>
               <li>
                 <a className="hover:underline" href="/blog">
-                  Blog{" "}
+                  Blog
                 </a>
               </li>
               <li>
                 <a className="hover:underline" href="https://discuss.huggingface.co">
-                  Forum{" "}
+                  Forum
                 </a>
               </li>
               <li>
                 <a className="hover:underline" href="https://status.huggingface.co/">
-                  Service Status{" "}
+                  Service Status
                 </a>
               </li>
             </ul>
@@ -113,12 +113,12 @@ export default function LandingPageFooter() {
             <ul className="space-y-1 text-gray-600 md:space-y-2">
               <li>
                 <a className="hover:underline" href="https://github.com/huggingface">
-                  GitHub{" "}
+                  GitHub
                 </a>
               </li>
               <li>
                 <a className="hover:underline" href="https://twitter.com/huggingface">
-                  Twitter{" "}
+                  Twitter
                 </a>
               </li>
               <li>
@@ -128,12 +128,12 @@ export default function LandingPageFooter() {
               </li>
               <li>
                 <a className="hover:underline" href="/join/discord">
-                  Discord{" "}
+                  Discord
                 </a>
               </li>
               <li>
                 <a className="hover:underline" href="https://www.zhihu.com/org/huggingface">
-                  Zhihu{" "}
+                  Zhihu
                 </a>
               </li>
               <li>
