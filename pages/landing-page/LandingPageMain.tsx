@@ -318,13 +318,13 @@ export default function LandingPageMain() {
           <div className="relative lg:col-span-2">
             <img
               className="relative -mb-px hidden overflow-hidden rounded-t-xl border border-b-0 border-gray-100 bg-white md:block"
-              style={{ boxShadow: "0 0px 16px 0 rgb(68 195 255 / 8%)" }}
+              style={{ boxShadow: '0 0px 16px 0 rgb(68 195 255 / 8%)' }}
               src="/front/assets/activity-feed.png"
               alt="Hugging Face Hub dashboard"
             />
             <img
               className="relative -mb-px overflow-hidden rounded-t-xl border border-b-0 border-gray-100 bg-white md:hidden"
-              style={{ boxShadow: "0 0px 16px 0 rgb(68 195 255 / 8%)" }}
+              style={{ boxShadow: '0 0px 16px 0 rgb(68 195 255 / 8%)' }}
               src="/front/assets/activity-feed-mobile.png"
               alt="Hugging Face Hub dashboard"
             />
@@ -383,7 +383,7 @@ export default function LandingPageMain() {
               <div className="first:hidden 2xl:first:block">
                 <a
                   className="transition:all dark:hover:brightness-120 relative flex h-52 w-[9.24rem] flex-none flex-col items-center justify-center rounded-xl border border-gray-100 bg-gradient-to-br from-white to-white p-3 shadow-none duration-100 hover:translate-y-1 hover:shadow-inner hover:brightness-[102%] dark:from-gray-800 dark:to-gray-900 dark:!shadow-none"
-                  style={{ boxShadow: "0 0px 16px 0 rgb(68 195 255 / 8%)" }}
+                  style={{ boxShadow: '0 0px 16px 0 rgb(68 195 255 / 8%)' }}
                   href="/tasks/audio-classification"
                 >
                   <svg
@@ -410,7 +410,7 @@ export default function LandingPageMain() {
               <div className="first:hidden 2xl:first:block">
                 <a
                   className="transition:all dark:hover:brightness-120 relative flex h-52 w-[9.24rem] flex-none flex-col items-center justify-center rounded-xl border border-gray-100 bg-gradient-to-br from-white to-white p-3 shadow-none duration-100 hover:translate-y-1 hover:shadow-inner hover:brightness-[102%] dark:from-gray-800 dark:to-gray-900 dark:!shadow-none"
-                  style={{ boxShadow: "0 0px 16px 0 rgb(68 195 255 / 8%)" }}
+                  style={{ boxShadow: '0 0px 16px 0 rgb(68 195 255 / 8%)' }}
                   href="/tasks/image-classification"
                 >
                   <svg
@@ -437,7 +437,7 @@ export default function LandingPageMain() {
               <div className="first:hidden 2xl:first:block">
                 <a
                   className="transition:all dark:hover:brightness-120 relative flex h-52 w-[9.24rem] flex-none flex-col items-center justify-center rounded-xl border border-gray-100 bg-gradient-to-br from-white to-white p-3 shadow-none duration-100 hover:translate-y-1 hover:shadow-inner hover:brightness-[102%] dark:from-gray-800 dark:to-gray-900 dark:!shadow-none"
-                  style={{ boxShadow: "0 0px 16px 0 rgb(68 195 255 / 8%)" }}
+                  style={{ boxShadow: '0 0px 16px 0 rgb(68 195 255 / 8%)' }}
                   href="/tasks/object-detection"
                 >
                   <svg
@@ -464,7 +464,7 @@ export default function LandingPageMain() {
               <div className="first:hidden 2xl:first:block">
                 <a
                   className="transition:all dark:hover:brightness-120 relative flex h-52 w-[9.24rem] flex-none flex-col items-center justify-center rounded-xl border border-gray-100 bg-gradient-to-br from-white to-white p-3 shadow-none duration-100 hover:translate-y-1 hover:shadow-inner hover:brightness-[102%] dark:from-gray-800 dark:to-gray-900 dark:!shadow-none"
-                  style={{ boxShadow: "0 0px 16px 0 rgb(68 195 255 / 8%)" }}
+                  style={{ boxShadow: '0 0px 16px 0 rgb(68 195 255 / 8%)' }}
                   href="/tasks/question-answering"
                 >
                   <svg
@@ -491,7 +491,7 @@ export default function LandingPageMain() {
               <div className="first:hidden 2xl:first:block">
                 <a
                   className="transition:all dark:hover:brightness-120 relative flex h-52 w-[9.24rem] flex-none flex-col items-center justify-center rounded-xl border border-gray-100 bg-gradient-to-br from-white to-white p-3 shadow-none duration-100 hover:translate-y-1 hover:shadow-inner hover:brightness-[102%] dark:from-gray-800 dark:to-gray-900 dark:!shadow-none"
-                  style={{ boxShadow: "0 0px 16px 0 rgb(68 195 255 / 8%)" }}
+                  style={{ boxShadow: '0 0px 16px 0 rgb(68 195 255 / 8%)' }}
                   href="/tasks/summarization"
                 >
                   <svg
@@ -517,7 +517,7 @@ export default function LandingPageMain() {
               <div className="first:hidden 2xl:first:block">
                 <a
                   className="transition:all dark:hover:brightness-120 relative flex h-52 w-[9.24rem] flex-none flex-col items-center justify-center rounded-xl border border-gray-100 bg-gradient-to-br from-white to-white p-3 shadow-none duration-100 hover:translate-y-1 hover:shadow-inner hover:brightness-[102%] dark:from-gray-800 dark:to-gray-900 dark:!shadow-none"
-                  style={{ boxShadow: "0 0px 16px 0 rgb(68 195 255 / 8%)" }}
+                  style={{ boxShadow: '0 0px 16px 0 rgb(68 195 255 / 8%)' }}
                   href="/tasks/text-classification"
                 >
                   <svg
@@ -532,7 +532,7 @@ export default function LandingPageMain() {
                     height="1em"
                     preserveAspectRatio="xMidYMid meet"
                     viewBox="0 0 32 32"
-                    style={{ transform: "rotate(360deg)" }}
+                    style={{ transform: 'rotate(360deg)' }}
                   >
                     <circle cx="10" cy="20" r="2" fill="currentColor"></circle>
                     <circle cx="10" cy="28" r="2" fill="currentColor"></circle>
@@ -556,7 +556,7 @@ export default function LandingPageMain() {
               <div className="first:hidden 2xl:first:block">
                 <a
                   className="transition:all dark:hover:brightness-120 relative flex h-52 w-[9.24rem] flex-none flex-col items-center justify-center rounded-xl border border-gray-100 bg-gradient-to-br from-white to-white p-3 shadow-none duration-100 hover:translate-y-1 hover:shadow-inner hover:brightness-[102%] dark:from-gray-800 dark:to-gray-900 dark:!shadow-none"
-                  style={{ boxShadow: "0 0px 16px 0 rgb(68 195 255 / 8%)" }}
+                  style={{ boxShadow: '0 0px 16px 0 rgb(68 195 255 / 8%)' }}
                   href="/tasks/translation"
                 >
                   <svg
@@ -830,12 +830,12 @@ export default function LandingPageMain() {
                   <div className="space-y-3.5 pt-4">
                     <div
                       className="animate__animated animate__fadeIn false flex items-start justify-between font-mono text-xs leading-none transition duration-200 ease-in-out"
-                      style={{ animationDelay: "0s" }}
+                      style={{ animationDelay: '0s' }}
                     >
                       <div className="flex-1">
                         <div
                           className="mb-1 h-1 rounded bg-gradient-to-r from-purple-400 to-purple-200 dark:from-purple-400 dark:to-purple-600"
-                          style={{ width: "80%" }}
+                          style={{ width: '80%' }}
                         ></div>
                         <span className="leading-snug">happiness</span>
                       </div>
@@ -843,12 +843,12 @@ export default function LandingPageMain() {
                     </div>
                     <div
                       className="animate__animated animate__fadeIn false flex items-start justify-between font-mono text-xs leading-none transition duration-200 ease-in-out"
-                      style={{ animationDelay: "0.04s" }}
+                      style={{ animationDelay: '0.04s' }}
                     >
                       <div className="flex-1">
                         <div
                           className="mb-1 h-1 rounded bg-gradient-to-r from-purple-400 to-purple-200 dark:from-purple-400 dark:to-purple-600"
-                          style={{ width: "68%" }}
+                          style={{ width: '68%' }}
                         ></div>
                         <span className="leading-snug">survival</span>
                       </div>
@@ -856,12 +856,12 @@ export default function LandingPageMain() {
                     </div>
                     <div
                       className="animate__animated animate__fadeIn false flex items-start justify-between font-mono text-xs leading-none transition duration-200 ease-in-out"
-                      style={{ animationDelay: "0.08s" }}
+                      style={{ animationDelay: '0.08s' }}
                     >
                       <div className="flex-1">
                         <div
                           className="mb-1 h-1 rounded bg-gradient-to-r from-purple-400 to-purple-200 dark:from-purple-400 dark:to-purple-600"
-                          style={{ width: "38%" }}
+                          style={{ width: '38%' }}
                         ></div>
                         <span className="leading-snug">salvation</span>
                       </div>
@@ -869,12 +869,12 @@ export default function LandingPageMain() {
                     </div>
                     <div
                       className="animate__animated animate__fadeIn false flex items-start justify-between font-mono text-xs leading-none transition duration-200 ease-in-out"
-                      style={{ animationDelay: "0.12s" }}
+                      style={{ animationDelay: '0.12s' }}
                     >
                       <div className="flex-1">
                         <div
                           className="mb-1 h-1 rounded bg-gradient-to-r from-purple-400 to-purple-200 dark:from-purple-400 dark:to-purple-600"
-                          style={{ width: "37%" }}
+                          style={{ width: '37%' }}
                         ></div>
                         <span className="leading-snug">freedom</span>
                       </div>
@@ -882,12 +882,12 @@ export default function LandingPageMain() {
                     </div>
                     <div
                       className="animate__animated animate__fadeIn false flex items-start justify-between font-mono text-xs leading-none transition duration-200 ease-in-out"
-                      style={{ animationDelay: "0.16s" }}
+                      style={{ animationDelay: '0.16s' }}
                     >
                       <div className="flex-1">
                         <div
                           className="mb-1 h-1 rounded bg-gradient-to-r from-purple-400 to-purple-200 dark:from-purple-400 dark:to-purple-600"
-                          style={{ width: "34%" }}
+                          style={{ width: '34%' }}
                         ></div>
                         <span className="leading-snug">unity</span>
                       </div>
@@ -907,7 +907,7 @@ export default function LandingPageMain() {
                         height="1em"
                         preserveAspectRatio="xMidYMid meet"
                         viewBox="0 0 32 32"
-                        style={{ transform: "rotate(360deg)" }}
+                        style={{ transform: 'rotate(360deg)' }}
                       >
                         <path d="M31 16l-7 7l-1.41-1.41L28.17 16l-5.58-5.59L24 9l7 7z" fill="currentColor"></path>
                         <path d="M1 16l7-7l1.41 1.41L3.83 16l5.58 5.59L8 23l-7-7z" fill="currentColor"></path>
@@ -1096,7 +1096,7 @@ export default function LandingPageMain() {
                         height="1em"
                         preserveAspectRatio="xMidYMid meet"
                         viewBox="0 0 32 32"
-                        style={{ transform: "rotate(360deg)" }}
+                        style={{ transform: 'rotate(360deg)' }}
                       >
                         <path d="M31 16l-7 7l-1.41-1.41L28.17 16l-5.58-5.59L24 9l7 7z" fill="currentColor"></path>
                         <path d="M1 16l7-7l1.41 1.41L3.83 16l5.58 5.59L8 23l-7-7z" fill="currentColor"></path>

@@ -1,7 +1,7 @@
-import Head from "next/head"
+import Head from 'next/head'
 
-import NavHeader from "blocks/NavHeader"
-import LandingPage from "./landing-page"
+import NavHeader from 'blocks/NavHeader'
+import LandingPage from './landing-page'
 
 export default function Web() {
   return (
