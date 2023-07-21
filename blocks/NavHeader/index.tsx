@@ -122,9 +122,9 @@ export default function NavHeader() {
           </div>
           <nav aria-label="Main" className="ml-auto hidden lg:block">
             <ul className="flex items-center space-x-2">
-              {AppNavList.filter((appNav) => appNav.type === 'App').map((appNav) => {
+              {AppNavList.filter((appNav) => appNav.type === 'App').map((appNav, index) => {
                 return (
-                  <li>
+                  <li key={index}>
                     <a
                       className="group flex items-center px-2 py-0.5 hover:text-indigo-700 dark:hover:text-gray-400"
                       href={appNav.href}

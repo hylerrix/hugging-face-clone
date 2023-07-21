@@ -686,10 +686,10 @@ export default function LandingPageMain() {
                       <span className="hljs-name">AutoModelForMaskedLM</span>
                       <span className="hljs-name">tokenizer</span>= <span className="hljs-name">AutoTokenizer</span>.
                       <span className="hljs-title">from_pretrained</span>(
-                      <span className="hljs-string">"bert-base-uncased"</span>)<span className="hljs-name">model</span>=
-                      <span className="hljs-name">AutoModelForMaskedLM</span>.
+                      <span className="hljs-string">{`"bert-base-uncased"`}</span>)
+                      <span className="hljs-name">model</span>=<span className="hljs-name">AutoModelForMaskedLM</span>.
                       <span className="hljs-title">from_pretrained</span>(
-                      <span className="hljs-string">"bert-base-uncased"</span>){/* <!-- HTML_TAG_END --> */}
+                      <span className="hljs-string">{`"bert-base-uncased"`}</span>){/* <!-- HTML_TAG_END --> */}
                     </code>
                   </pre>
                 </div>
@@ -808,7 +808,7 @@ export default function LandingPageMain() {
                     </div>
                     <label className="block ">
                       <span
-                        className="  dark:bg-gray-925 svelte-1wfa7x9 block inline-block max-h-[500px] min-h-[42px] w-full resize-y overflow-auto whitespace-pre-wrap rounded-lg border border-gray-200 px-3 py-2 shadow-inner outline-none focus:shadow-inner focus:ring focus:ring-blue-200"
+                        className="  dark:bg-gray-925 svelte-1wfa7x9 inline-block max-h-[500px] min-h-[42px] w-full resize-y overflow-auto whitespace-pre-wrap rounded-lg border border-gray-200 px-3 py-2 shadow-inner outline-none focus:shadow-inner focus:ring focus:ring-blue-200"
                         role="textbox"
                         contentEditable={undefined}
                         // style={ "--placeholder": 'Your sentence here...' }
@@ -1012,7 +1012,7 @@ export default function LandingPageMain() {
                   <form>
                     <label className="block ">
                       <span
-                        className="  dark:bg-gray-925 svelte-1wfa7x9 block inline-block max-h-[500px] min-h-[42px] w-full resize-y overflow-auto whitespace-pre-wrap rounded-lg border border-gray-200 px-3 py-2 shadow-inner outline-none focus:shadow-inner focus:ring focus:ring-blue-200"
+                        className="  dark:bg-gray-925 svelte-1wfa7x9 inline-block max-h-[500px] min-h-[42px] w-full resize-y overflow-auto whitespace-pre-wrap rounded-lg border border-gray-200 px-3 py-2 shadow-inner outline-none focus:shadow-inner focus:ring focus:ring-blue-200"
                         role="textbox"
                         contentEditable={undefined}
                         // style="--placeholder: 'Your sentence here...';"
