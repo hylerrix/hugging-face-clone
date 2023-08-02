@@ -1,11 +1,13 @@
+'use client'
+
 import { useEffect, useState } from 'react'
 import MoreNav from './MoreNav'
-import SearchAutocomplete from './SearchAutocomplete'
+import SearchBar from './SearchBar'
 import { AppNavList } from './constant'
 import AllNavInSmallScreen from './AllNavInSmallScreen'
 
 export default function NavHeader() {
-  const [isSearchAutocompleteShow, setIsSearchAutocompleteShow] = useState<boolean>(false)
+  const [isSearchBarShow, setIsSearchBarShow] = useState<boolean>(false)
   const [isMoreNavShow, setIsMoreNavShow] = useState<boolean>(false)
   const [isAllNavInSmallScreenShow, setIsAllNavInSmallScreenShow] = useState<boolean>(false)
 
@@ -40,10 +42,10 @@ export default function NavHeader() {
                 className="form-input-alt h-9 w-full pl-8 pr-3 focus:shadow-xl dark:bg-gray-950"
                 name=""
                 onClick={() => {
-                  setIsSearchAutocompleteShow(true)
+                  setIsSearchBarShow(true)
                 }}
                 onBlur={() => {
-                  setIsSearchAutocompleteShow(false)
+                  setIsSearchBarShow(false)
                 }}
                 placeholder="Search models, datasets, users..."
                 spellCheck="false"
@@ -66,7 +68,7 @@ export default function NavHeader() {
                   fill="currentColor"
                 ></path>
               </svg>
-              {isSearchAutocompleteShow && <SearchAutocomplete />}
+              {isSearchBarShow && <SearchBar />}
             </div>
             <div className="flex flex-none items-center justify-center place-self-stretch p-0.5 lg:hidden">
               <button

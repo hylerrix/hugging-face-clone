@@ -1,4 +1,4 @@
-export default function SearchAutocomplete() {
+export default function SearchBar() {
   return (
     <div className="absolute z-40 w-full md:min-w-[24rem]">
       <ul className="mt-1 max-h-[calc(100vh-100px)] w-full divide-y divide-gray-100 overflow-hidden overflow-y-auto rounded-lg border border-gray-100 bg-white text-sm shadow-lg dark:divide-gray-900 ">

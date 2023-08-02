@@ -6,9 +6,19 @@
 
 Hugging Face is now becoming the central community of AI. The website shows us a new way of sharing public datasets and apps (in iframe). And it also connects with [Gradio](https://www.gradio.app/) so profoundly that we can direct using Python to build web interfaces. Coupled with the help of the file-version-control-system, we can have a code-build-talk experience all in one place.
 
-Considering I want to add the missing community to the spreadsheet databases ecology, Hugging Face (Which also has many great-looking Tailwind-CSS-based frontend pages) now seems the best application I can refer to. Let's first build this clone version project with a tremendous production-ready template [@Blazity/next-enterprise](https://github.com/Blazity/next-enterprise).
+Considering I want to add the missing community to the spreadsheet databases ecology (or even to the iFrame ecology), Hugging Face (Which also has many great-looking Tailwind-CSS-based frontend pages) now seems the best application I can refer to. Let's first build this clone version project on a tremendous production-ready template [@Blazity/next-enterprise](https://github.com/Blazity/next-enterprise).
 
 More motivations behind this project, I'll talk about it later (when a suitable version is ready).
+
+## Architecture behind this repo
+
+This graph is generated from [madege](https://github.com/pahen/madge) using `yarn coupling-graph`.
+
+> A graph with circular dependencies. Blue has dependencies, green has no dependencies, and red has circular dependencies.
+
+And this is not an all-included graph, for example, it can not show which is the Server Component, which is the Client Component, and what the tree . We want to add it as soon as possible (any suggestions are welcome.)
+
+![](./graph.svg)
 
 ## 🤝 Contribution
 
