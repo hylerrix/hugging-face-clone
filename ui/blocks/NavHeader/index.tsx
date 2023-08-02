@@ -248,7 +248,7 @@ export default function NavHeader() {
                 </a>
               </li>
               <li>
-                <a className="btn ml-2" href="/join">
+                <a className="rounded-full border border-transparent bg-gray-900 px-3 py-1 leading-none text-white hover:border-black hover:bg-white hover:text-black" href="/join">
                   Sign Up
                 </a>
               </li>
