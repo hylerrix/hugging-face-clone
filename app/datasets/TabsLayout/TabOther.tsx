@@ -5,7 +5,7 @@ export default function TabOther() {
     <div className="mb-3">
       <div className="flex flex-wrap">
         {DatasetOther.map((item, index) => (
-          <a className="tag  tag-white" href={`/datasets?other=${item}`}>
+          <a key={index} className="tag  tag-white" href={`/datasets?other=${item}`}>
             <span>{item}</span>
           </a>
         ))}

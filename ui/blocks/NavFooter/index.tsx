@@ -3,9 +3,7 @@ export default function NavFooter() {
     <footer className="b-12 mb-2 flex border-t border-gray-100 md:h-14">
       <nav className="container flex flex-col justify-between space-y-2 py-6 text-gray-500 md:flex-row md:items-center md:space-y-0 md:py-0 md:text-sm">
         <div className="font-semibold text-black md:hidden">Company</div>
-        <div className="order-last pt-6 text-gray-400 md:order-none md:pt-0" href="Terms">
-          © Hugging Face
-        </div>
+        <div className="order-last pt-6 text-gray-400 md:order-none md:pt-0">© Hugging Face</div>
         <a className="hover:underline" href="/terms-of-service">
           TOS
         </a>

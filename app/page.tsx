@@ -1,5 +1,5 @@
-import LandingPageMain from './LandingPageMain'
 import LandingPageFooter from './LandingPageFooter'
+import LandingPageMain from './LandingPageMain'
 
 export default function Page() {
   return (

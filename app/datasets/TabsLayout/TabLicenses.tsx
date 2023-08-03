@@ -7,7 +7,7 @@ export default function TabLicenses() {
     <div className="mb-3">
       <div className="flex flex-wrap">
         {DatasetsLicense.map((item, index) => (
-          <a className="tag  tag-white rounded-full" href={`/datasets?license=license%3A${item}`}>
+          <a key={index} className="tag  tag-white rounded-full" href={`/datasets?license=license%3A${item}`}>
             <LicenseSVG />
             <span>{item}</span>
           </a>
