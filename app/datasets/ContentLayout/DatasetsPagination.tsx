@@ -1,3 +1,5 @@
+import { NextPageSVG, PreviousPageSVG } from 'ui/svgs'
+
 export function DatasetsPagination() {
   return (
     <nav>
@@ -7,20 +9,7 @@ export function DatasetsPagination() {
             className="flex items-center rounded-lg px-2.5 py-1 hover:bg-gray-50 dark:hover:bg-gray-800 pointer-events-none cursor-default text-gray-400 hover:text-gray-700"
             href=""
           >
-            <svg
-              className="mr-1.5"
-              xmlns="http://www.w3.org/2000/svg"
-              xmlnsXlink="http://www.w3.org/1999/xlink"
-              aria-hidden="true"
-              focusable="false"
-              role="img"
-              width="1em"
-              height="1em"
-              preserveAspectRatio="xMidYMid meet"
-              viewBox="0 0 32 32"
-            >
-              <path d="M10 16L20 6l1.4 1.4l-8.6 8.6l8.6 8.6L20 26z" fill="currentColor"></path>
-            </svg>
+            <PreviousPageSVG />
             Previous
           </a>
         </li>
@@ -61,20 +50,7 @@ export function DatasetsPagination() {
             href="?p=1&amp;sort=trending"
           >
             Next
-            <svg
-              className="ml-1.5 transform rotate-180"
-              xmlns="http://www.w3.org/2000/svg"
-              xmlnsXlink="http://www.w3.org/1999/xlink"
-              aria-hidden="true"
-              focusable="false"
-              role="img"
-              width="1em"
-              height="1em"
-              preserveAspectRatio="xMidYMid meet"
-              viewBox="0 0 32 32"
-            >
-              <path d="M10 16L20 6l1.4 1.4l-8.6 8.6l8.6 8.6L20 26z" fill="currentColor"></path>
-            </svg>
+            <NextPageSVG />
           </a>
         </li>
       </ul>

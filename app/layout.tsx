@@ -1,4 +1,3 @@
-import Head from 'next/head'
 import { Metadata } from 'next'
 
 import NavHeader from 'ui/blocks/NavHeader/index.client'
@@ -28,11 +27,11 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <Head>
+      {/* <Head>
         <meta charSet="utf-8" />
         <link rel="alternate" type="application/rss+xml" href="/blog/feed.xml" title="Hugging Face Blog" />
         <script defer data-domain="huggingface.co" src="/js/script.js"></script>
-      </Head>
+      </Head> */}
       <body>
         <main
           className="HomePage flex min-h-screen flex-col bg-white text-black dark:bg-gray-950"

@@ -41,36 +41,7 @@ import {
 
 export default function TabTasks() {
   return (
-    <div className="mb-20 lg:mb-4">
-      <div className="mb-4 flex items-center justify-between lg:mr-8">
-        <div className="relative flex min-w-0 flex-1 items-center">
-          <svg
-            className="absolute text-gray-300 pointer-events-none left-2 text-sm"
-            xmlns="http://www.w3.org/2000/svg"
-            xmlnsXlink="http://www.w3.org/1999/xlink"
-            aria-hidden="true"
-            focusable="false"
-            role="img"
-            width="1em"
-            height="1em"
-            preserveAspectRatio="xMidYMid meet"
-            viewBox="0 0 32 32"
-          >
-            <path
-              d="M30 28.59L22.45 21A11 11 0 1 0 21 22.45L28.59 30zM5 14a9 9 0 1 1 9 9a9 9 0 0 1-9-9z"
-              fill="currentColor"
-            ></path>
-          </svg>
-          <input
-            className="h-7 min-w-0 flex-1 rounded-full border border-gray-200/70 bg-white pl-7 text-sm placeholder-gray-400 ring-0 focus:outline-none"
-            autoComplete="off"
-            placeholder="Filter Tasks by name"
-            type="text"
-            value=""
-            readOnly
-          />
-        </div>
-      </div>
+    <>
       <div className="mb-3">
         <div className="mb-3 text-sm font-medium text-gray-500">Multimodal</div>
         <div className="flex flex-wrap">
@@ -330,6 +301,6 @@ export default function TabTasks() {
           </a>
         </div>
       </div>
-    </div>
+    </>
   )
 }

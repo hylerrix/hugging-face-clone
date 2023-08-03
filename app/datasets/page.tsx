@@ -1,9 +1,7 @@
-import TabsLayout from './TabsLayout'
+import TabsLayout from './TabsLayout/index.client'
 import ContentLayout from './ContentLayout'
 
 export default function Datasets() {
-  // const [currentTab, setCurrentTab] = useState<DatasetsTabItem>('Tasks')
-
   return (
     <main className="flex flex-1 flex-col">
       <div className="SVELTE_HYDRATER contents" data-props="" data-target="DatasetList">
