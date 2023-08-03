@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import { Metadata } from 'next'
 
-import NavHeader from 'ui/blocks/NavHeader'
+import NavHeader from 'ui/blocks/NavHeader/index.client'
 
 import 'styles/global-stylesheet.css'
 import 'styles/google-font-Source-Sans-Pro.css'

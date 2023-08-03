@@ -1,10 +1,10 @@
 'use client'
 
 import { useEffect, useState } from 'react'
-import MoreNav from './MoreNav'
-import SearchBar from './SearchBar'
+import MoreNav from './MoreNav.client'
+import SearchBar from './SearchBar.client'
 import { AppNavList } from './constant'
-import AllNavInSmallScreen from './AllNavInSmallScreen'
+import AllNavInSmallScreen from './AllNavInSmallScreen.client'
 
 export default function NavHeader() {
   const [isSearchBarShow, setIsSearchBarShow] = useState<boolean>(false)
@@ -248,7 +248,10 @@ export default function NavHeader() {
                 </a>
               </li>
               <li>
-                <a className="rounded-full border border-transparent bg-gray-900 px-3 py-1 leading-none text-white hover:border-black hover:bg-white hover:text-black" href="/join">
+                <a
+                  className="rounded-full border border-transparent bg-gray-900 px-3 py-1 leading-none text-white hover:border-black hover:bg-white hover:text-black"
+                  href="/join"
+                >
                   Sign Up
                 </a>
               </li>
